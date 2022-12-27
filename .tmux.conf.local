@@ -1,0 +1,68 @@
+# -- user customizations -------------------------------------------------------
+# this is the place to override or undo settings
+set -gs escape-time 1                     # faster command sequences
+set -sg repeat-time 300                   # increase repeat timeout
+set -g display-panes-time 1000 # slightly longer pane indicators display time
+bind s split-window -v -v -c "#{pane_current_path}"
+bind v split-window -h -v -c "#{pane_current_path}"
+setw -g xterm-keys off
+set -g monitor-activity off #if on would cause bells when activity happens
+set -g visual-activity off #if on would cause message when activity happens
+#found out how to use system clibpoard for now; might want to use https://github.com/tmux/tmux/wiki/Clipboard
+bind p paste-buffer -p #the p adds paste bracket control codes if reqeusted by application
+bind-key -T copy-mode-vi r send-keys -X rectangle-toggle
+set -s set-clipboard on
+
+
+set-option -g update-environment "SSH_AUTH_SOCK SSH_CONNECTION DISPLAY I3SOCK"
+#
+#set -g display-panes-time 1000 # slightly longer pane indicators display time
+# increase history size
+#set -g history-limit 10000
+
+# start with mouse mode enabled
+#set -g mouse on
+
+# force Vi mode
+#   really you should export VISUAL or EDITOR environment variable, see manual
+#set -g status-keys vi
+#set -g mode-keys vi
+
+# replace C-b by C-a instead of using both prefixes
+# set -gu prefix2
+# unbind C-a
+# unbind C-b
+# set -g prefix C-a
+# bind C-a send-prefix
+
+# move status line to top
+#set -g status-position top
+
+# -- tpm -----------------------------------------------------------------------
+
+
+# to enable a plugin, use the 'set -g @plugin' syntax:
+# visit https://github.com/tmux-plugins for available plugins
+#set -g @plugin 'tmux-plugins/tmux-copycat'
+#set -g @plugin 'tmux-plugins/tmux-cpu'
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'dracula/tmux'
+set -g @plugin 'tmux-plugins/tmux-open'
+
+#for vim
+set -g @resurrect-strategy-vim 'session'
+
+# for neovim
+set -g @resurrect-strategy-nvim 'session'
+set -g @resurrect-capture-pane-contents 'on'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+#set -g @plugin 'git@github.com:IngoMeyer441/tmux-easy-motion'
+#set -g @easy-motion-prefix "Space"
+#set -g @easy-motion-verbose "true"
+#set -g @continuum-restore 'on'
+#run -b '~/.tmux/plugins/tpm/tpm' #if installed directly from github
+
+if-shell "test -f /usr/share/tmux-plugin-manager/tpm" "run /usr/share/tmux-plugin-manager/tpm"
+if-shell "test -f ~/.tmux/plugins/tpm/tpm" "run ~/.tmux/plugins/tpm/tpm"

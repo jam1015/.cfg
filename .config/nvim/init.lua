@@ -1,0 +1,5 @@
+pcall(require, "impatient")
+require('settings')
+require('keymaps')
+require('autocommands')
+require('packer_plugins')

@@ -1,0 +1,14 @@
+{
+    "abbrev": "",
+    "description": [
+        ""
+    ],
+    "formatVersion": 1,
+    "menu": "",
+    "name": "Key replacement: % before word",
+    "shortcut": "Shift+F1",
+    "tag": [
+        "%%"
+    ],
+    "trigger": "(?language:latex)(?<=\\s|^)%"
+}

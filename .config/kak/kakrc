@@ -1,0 +1,5 @@
+set -add global autoinfo normal
+#search-highlighter-enable
+#set-face global search +bi
+#add-highlighter global/search dynregex '%reg{/}' 0:search
+colorscheme palenight

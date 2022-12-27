@@ -1,0 +1,8 @@
+# GIMP action-history
+
+(history-item "gimp-help-concepts-usage" 1)
+(history-item "tools-crop" 0)
+(history-item "file-save-as" 0)
+(history-item "file-quit" 1)
+
+# end of action-history

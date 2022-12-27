@@ -1,0 +1,57 @@
+{
+    "insert_matching": false,
+    "check_arguments_to_r_function_calls": true,
+    "soft_wrap_r_files": true,
+    "syntax_color_console": true,
+    "editor_theme": "Tomorrow Night 80s",
+    "default_project_location": "~",
+    "source_with_echo": true,
+    "save_workspace": "never",
+    "always_save_history": false,
+    "remove_history_duplicates": true,
+    "reuse_sessions_for_project_links": true,
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer",
+            "Presentations"
+        ],
+        "hiddenTabSet": [],
+        "console_left_on_top": false,
+        "console_right_on_top": true,
+        "additional_source_columns": 0
+    },
+    "show_indent_guides": true,
+    "highlight_r_function_calls": true,
+    "posix_terminal_shell": "zsh",
+    "initial_working_directory": "~",
+    "save_files_before_build": true,
+    "use_spaces_for_tab": false,
+    "editor_keybindings": "vim",
+    "jobs_tab_visibility": "shown",
+    "document_author": "jordan",
+    "shiny_viewer_type": "browser",
+    "pdf_previewer": "none",
+    "highlight_selected_line": true,
+    "show_margin": false,
+    "blinking_cursor": false,
+    "rainbow_parentheses": true
+}

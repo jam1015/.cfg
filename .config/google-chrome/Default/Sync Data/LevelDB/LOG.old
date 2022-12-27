@@ -1,0 +1,6 @@
+2022/09/19-12:24:36.301 11ec2c Reusing MANIFEST /home/jordan/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2022/09/19-12:24:36.301 11ec2c Recovering log #4
+2022/09/19-12:24:36.642 11ec2c Reusing old log /home/jordan/.config/google-chrome/Default/Sync Data/LevelDB/000004.log 
+2022/09/19-12:24:53.338 11ecfa Level-0 table #8: started
+2022/09/19-12:24:53.724 11ecfa Level-0 table #8: 129147 bytes OK
+2022/09/19-12:24:54.244 11ecfa Delete type=0 #4

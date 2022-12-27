@@ -1,0 +1,35 @@
+<!-- 
+<?xml version='1.0'?>
+<match target="scan">
+ <test name="family">
+  <string>monofur for Powerline</string>
+ </test>
+ <edit name="spacing">
+  <int>100</int>
+ </edit>
+ <dir>~/.fonts</dir>
+ <match target="font">
+  <edit name="hinting" mode="assign">
+   <bool>false</bool>
+  </edit>
+ </match>
+ <match target="font">
+  <edit name="hintstyle" mode="assign">
+   <const>hintnone</const>
+  </edit>
+ </match>
+</match>
+Override monospace detection for custom fonts -->
+
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+<match target="scan">
+    <test name="family">
+        <string>CMU Typewriter Text</string>
+    </test>
+    <edit name="spacing">
+        <int>100</int>
+    </edit>
+</match>
+</fontconfig>

@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "coc-clangd": ">=0.27.0",
+    "coc-html": ">=1.6.1",
+    "coc-json": ">=1.6.0",
+    "coc-pyright": ">=1.1.250",
+    "coc-texlab": ">=3.2.0",
+    "coc-tsserver": ">=2.0.2",
+    "coc-zig": ">=0.6.1",
+    "coc-html-css-support": ">=0.4.0",
+    "coc-emmet": ">=1.1.6"
+  },
+  "disabled": [],
+  "locked": []
+}

@@ -1,0 +1,9 @@
+# GIMP gimp-eraser-tool options
+
+(brush "Bristles 01")
+(dynamics "Dynamics Off")
+(palette "Color History")
+(brush-size 64)
+(brush-spacing 0.029999999999999999)
+
+# end of gimp-eraser-tool options

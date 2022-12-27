@@ -1,0 +1,118 @@
+%Jennifer Pan, August 2011
+
+\documentclass[10pt,letter]{article}
+	% basic article document class
+	% use percent signs to make comments to yourself -- they will not show up.
+\usepackage{gensymb}
+\usepackage{amsmath}
+\usepackage{amssymb}
+	% packages that allow mathematical formatting
+
+\usepackage{graphicx}
+	% package that allows you to include graphics
+
+\usepackage{setspace}
+	% package that allows you to change spacing
+
+%\onehalfspacing
+	% text become 1.5 spaced
+
+%\newcommand{\latex}{\LaTeX\xspace}
+%\newcommand{\tex}{\TeX\xspace}
+	% package that specifies normal margins
+	
+	
+	
+	\newcommand{\intt}{\int_{t_0}^{t}}
+	\newcommand{\tn}{t_0}
+	\newcommand{\Rin}{R_{\textrm{in}}}
+	\newcommand{\Rout}{R_{\textrm{out}}}
+	\newcommand{\Cin}{C_{\textrm{in}}}
+	\newcommand{\So}{S_0}
+	\newcommand{\Vto}{V(t_0)}
+	\newcommand{\Vmax}{V_{\textrm{max}}}
+	\newcommand{\trm}[1]{\textrm{#1}}
+	
+
+\usepackage{nopageno}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\abs{\lvert}{\rvert}
+\DeclarePairedDelimiter\prn{\left(}{\right)}
+% use * or \abs[\Big]{} to fill space
+\usepackage{enumerate}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{bm}
+\usepackage{xfrac} 
+\usepackage[ margin = 1in]{geometry}
+\usepackage{textcomp}
+%\usepackage{unicode-math}
+\usepackage{titlesec}
+%\setmainfont{Times New Roman}
+%\setmathfont{Cambria Math}
+
+
+\begin{document}
+	% line of code telling latex that your document is beginning
+
+
+\title{Stat Theory HW 2}
+
+\author{Jordan Mandel}
+
+\date{\today}
+	% Note: when you omit this command, the current dateis automatically included
+ 
+\maketitle 
+
+\section*{1.}
+\subsubsection*{Expectation:}
+\[
+E(X) 
+= \sum_{x\in\mathbb{Z}}xf_X(x)
+= \sum_{x=1}^\infty x\frac{-(1-p)^x}{x\log(p)}
+=-\left(\frac{1}{\log(p)}\sum_{x=1}^\infty (1-p)^x\right)
+=-\left(\frac{(1-p)}{\log(p)}\sum_{x=0}^\infty (1-p)^x\right)
+=\frac{-(1-p)}{p\log(p)}
+\]
+\subsubsection*{Variance:}
+$Var(X) = E(X^2)-(E(X))^2$.  We already calculated $E(x)$ so we just have to calculate $E(X^2)$, and plug it in to the formula.
+\[
+E(X^2) 
+= \sum_{x\in\mathbb{Z}}x^2f_X(x)
+= \sum_{x=1}^\infty x^2\frac{-(1-p)^x}{x\log(p)}
+=-\left(\frac{1}{\log(p)}\sum_{x=1}^\infty x(1-p)^x\right)
+=-\left(\frac{(1-p)}{\log(p)}\sum_{x=1}^\infty x(1-p)^{(x-1)}\right)
+\]
+To calculate the sum we note that for $r\in (0,1)$
+\begin{align*}
+\frac{d}{dr}\left(\frac{1}{1-r}\right)&= \frac{d}{dr}\left(\sum_{x=0}^\infty r^x\right) \\
+\frac{-1}{(1-r)^2} &= \sum_{x=0}^\infty xr^{(x-1)}\textrm{,}
+\end{align*}
+and that $(1-p)$ is precisely such an $r$, and that the $x=0$ term is itself zero. So plugging this in  we have
+
+\begin{equation*}
+E(X^2) = \frac{(1-p)}{p^2log(p)}
+\end{equation*}
+And plugging in values into the main variance equation we get: 
+\begin{equation*}
+Var(X) = \left(\frac{(1-p)}{p^2log(p)}\right)^2-\frac{(1-p)}{p^2log(p)}=\boxed{\frac{(1-p)^2-(1-p)p^2\log{p}}{p^4\log(p)}}
+\end{equation*}
+
+\section*{2: CB 2.1}
+\section*{3: CB 2.18}
+\subsection*{(a)}
+\subsection*{(b)}
+\section*{4: CB 3.1}
+\section*{5: CB 3.2}
+\subsection*{(a)}
+\subsection*{(b)}
+\section*{6.}
+\subsection*{(a)}
+\subsection*{(b)}
+\section*{7.}The we use the formula 
+\begin{equation*}
+f_Y(y)= f_X(g^{-1}(y))\abs*{\frac{d}{dy}(g^{-1}(y))}
+\end{equation*}
+
+\end{document}

@@ -1,0 +1,11 @@
+[Added Associations]
+image/jpeg=pinta.desktop;
+image/png=pinta.desktop;
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;sioyek.desktop;
+
+[Default Applications]
+text/html=firefoxdeveloperedition.desktop
+x-scheme-handler/http=firefoxdeveloperedition.desktop
+x-scheme-handler/https=firefoxdeveloperedition.desktop
+x-scheme-handler/about=firefoxdeveloperedition.desktop
+x-scheme-handler/unknown=firefoxdeveloperedition.desktop

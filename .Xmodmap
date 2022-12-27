@@ -1,0 +1,9 @@
+!making caps lock control and shift+caps_lock caps lock
+clear lock
+clear control
+add control = Control_L Control_R Caps_Lock 
+! keycode 66 = Control_L Caps_Lock NoSymbol NoSymbol
+keycode 66 = Control_L  Control_L NoSymbol NoSymbol
+! changing audio controls
+keycode 112 = XF86AudioRaiseVolume
+keycode 117 = XF86AudioLowerVolume

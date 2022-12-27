@@ -1,0 +1,5 @@
+.tmux/plugins/*
+.config/gh/*
+nvim_chris
+nvim_rayx
+tags

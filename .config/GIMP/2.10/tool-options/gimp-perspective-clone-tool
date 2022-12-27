@@ -1,0 +1,10 @@
+# GIMP gimp-perspective-clone-tool options
+
+(brush "Bristles 01")
+(dynamics "Dynamics Off")
+(pattern "Pine")
+(palette "Color History")
+(brush-size 64)
+(brush-spacing 0.029999999999999999)
+
+# end of gimp-perspective-clone-tool options

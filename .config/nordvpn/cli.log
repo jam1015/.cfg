@@ -1,0 +1,13 @@
+2022/05/31 22:29:54 [Error] Whoops! /run/nordvpn/nordvpnd.sock not found
+2022/05/31 22:30:57 [Error] Whoops! /run/nordvpn/nordvpnd.sock not found
+2022/11/30 13:20:57 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:20:57 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:05 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:05 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:14 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:14 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:27 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:27 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:45 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 13:21:45 [Error] rpc error: code = Unimplemented desc = unknown method IsFeatureSupported for service pb.Daemon
+2022/11/30 16:07:16 Whoops! Something went wrong. Please try again. If the problem persists, contact our customer support.

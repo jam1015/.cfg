@@ -1,0 +1,15 @@
+Italic|Italic|around|
+Bold|BoldItalic|around|
+refer|referenceToAddition|tsc-javascript|v
+cons|console|tsc-javascript|v
+ToggleNumber|ToggleNumberToggle|around|
+|education|tsc-javascript|F
+di|div|tsc-javascript|m
+do_t|do_twice|around|
+esp|especially|around|
+espe|especially|around|
+stopIte|StopIteration|around|
+insta|instantiated|around|
+myC|MyClass|around|
+r|rstudio_icon.png|file|
+x|xflux_running|sh|v

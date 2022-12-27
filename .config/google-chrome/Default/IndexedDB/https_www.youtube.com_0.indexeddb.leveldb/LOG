@@ -1,0 +1,6 @@
+2022/09/19-19:41:42.616 206e55 Creating DB /home/jordan/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2022/09/19-19:41:42.759 206e55 Reusing MANIFEST /home/jordan/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/09/19-19:45:14.933 20793b Level-0 table #5: started
+2022/09/19-19:45:14.990 20793b Level-0 table #5: 146827 bytes OK
+2022/09/19-19:45:15.025 20793b Delete type=0 #3
+2022/09/19-19:45:15.025 20793b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

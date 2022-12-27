@@ -1,0 +1,17 @@
+Language: Cpp
+BasedOnStyle: Google
+IndentWidth: 4
+BreakBeforeBraces: Allman
+TabWidth: 4
+UseTab: Always
+ColumnLimit: 0
+#AlignConsecutiveAssignments: AcrossEmptyLinesAndComments
+#AlignConsecutiveDeclarations: AcrossEmptyLinesAndComments
+#AlignOperands: AlignAfterOperator;
+#AlignTrailingComments: true
+#BinPackArguments: false
+#BinPackParameters: false
+#PointerAlignment: Right
+#AllowShortIfStatementsOnASingleLine: true
+#IndentCaseLabels: true
+

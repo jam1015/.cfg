@@ -1,0 +1,877 @@
+[08:12:26.058][debug][#0:test.lua:21]: 测试开始
+[08:12:26.119][info] [#0:script/language.lua:135]: VSC language: zh-cn
+[08:12:26.119][info] [#0:script/language.lua:136]: LS  language: zh-cn
+[08:12:27.050][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:27.053][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:27.054][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:27.059][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:27.060][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a.lua
+[08:12:27.060][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:27.060][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:27.061][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a.lua
+[08:12:27.061][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:27.062][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:27.062][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:27.063][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a/init.lua
+[08:12:27.063][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:27.063][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:27.064][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:27.065][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.068][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.068][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.069][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.070][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.070][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.071][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.071][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.072][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.073][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.074][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.075][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.075][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.075][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.076][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.081][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.082][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.083][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.083][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.084][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.085][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.086][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.086][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.087][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.088][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.088][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.088][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.090][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.091][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.092][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.093][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.095][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.095][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.096][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.097][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.098][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.104][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.105][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.106][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.107][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.108][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.109][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.110][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.110][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.111][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.111][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.112][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.112][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.113][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.113][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.114][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.114][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.115][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.115][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.116][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.116][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.117][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.118][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.119][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.124][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.125][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.126][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.127][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.128][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.128][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.130][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.131][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.131][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.132][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.132][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.133][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.134][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.134][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.135][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.135][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.136][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.136][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.137][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.137][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.138][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.139][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.145][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.146][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.148][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.148][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.149][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.149][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.150][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.150][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.151][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.151][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.153][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.154][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.155][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.156][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.156][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.157][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.158][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.159][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.159][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.160][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.161][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.161][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.167][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.168][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.168][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.168][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.169][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.169][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.170][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.171][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.172][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.172][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.173][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.173][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.174][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.174][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.175][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.175][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.176][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.176][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.177][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.177][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.179][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.191][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.193][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.195][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.196][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.196][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.197][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.199][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.200][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.201][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.202][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.203][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.204][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.204][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.205][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.206][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.206][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.207][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.208][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.209][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.209][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.210][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.210][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.211][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.211][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.219][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.221][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.222][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.223][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.224][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.224][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.225][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.225][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.226][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.227][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.228][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.229][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.231][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.232][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.233][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.235][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.237][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.238][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.239][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.249][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.264][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.304][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.306][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.307][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.309][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.310][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.310][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.311][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.312][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.313][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.314][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.315][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.316][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.316][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.317][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.318][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.319][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.319][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.320][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.321][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.329][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.329][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.330][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.331][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.332][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:27.332][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.303][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:28.303][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:28.304][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:28.305][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:28.305][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a.lua
+[08:12:28.305][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:28.305][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:28.307][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a.lua
+[08:12:28.307][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:28.307][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:28.307][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:28.309][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a/init.lua
+[08:12:28.309][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:28.309][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:28.310][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:28.311][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.312][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.312][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.313][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.313][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.314][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.315][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.315][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.316][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.317][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.318][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.319][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.327][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.327][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.327][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.328][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.329][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.330][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.331][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.332][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.332][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.333][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.334][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.335][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.335][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.336][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.337][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.338][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.339][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.341][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.342][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.342][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.343][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.344][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.345][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.347][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.348][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.357][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.358][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.360][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.361][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.362][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.364][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.364][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.365][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.366][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.366][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.367][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.367][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.368][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.369][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.370][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.370][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.371][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.372][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.373][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.374][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.375][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.377][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.378][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.380][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.381][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.392][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.393][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.394][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.396][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.397][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.398][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.398][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.399][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.400][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.400][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.401][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.401][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.402][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.402][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.403][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.404][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.404][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.405][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.406][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.407][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.408][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.411][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.412][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.412][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.413][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.413][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.421][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.421][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.422][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.425][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.425][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.426][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.427][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.428][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.428][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.429][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.430][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.431][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.432][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.432][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.433][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.433][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.434][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.434][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.435][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.436][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.436][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.437][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.438][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.439][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.440][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.440][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.441][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.441][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.442][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.449][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.450][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.450][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.451][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.451][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.452][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.453][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.460][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.462][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.463][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.465][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.465][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.467][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.468][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.469][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.470][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.471][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.472][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.472][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.473][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.479][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.480][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.480][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.481][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.482][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.482][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.483][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.483][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.484][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.484][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.485][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.485][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.486][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.487][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.489][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.489][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.490][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.491][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.491][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.492][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.493][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.493][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.495][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.497][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.498][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.499][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.507][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.509][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.511][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.512][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.514][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.515][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.518][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.520][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.522][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.523][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.524][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.524][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.525][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.526][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.527][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.528][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.529][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.530][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.530][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.531][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.532][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.533][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.540][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.541][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.542][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.543][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.544][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.545][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.545][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.546][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:28.546][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.533][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:29.533][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:29.534][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:29.535][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:29.535][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a.lua
+[08:12:29.535][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:29.536][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:29.537][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a.lua
+[08:12:29.537][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:29.537][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:29.538][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:29.538][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///a/init.lua
+[08:12:29.539][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///f/a.lua
+[08:12:29.539][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///b.lua
+[08:12:29.539][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///c.lua
+[08:12:29.541][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.541][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.542][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.542][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.543][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.543][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.543][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.544][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.544][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.545][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.546][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.547][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.547][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.547][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.548][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.548][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.549][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.550][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.551][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.551][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.560][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.561][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.561][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.562][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.562][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.563][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.563][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.564][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.565][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.566][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.567][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.568][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.569][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.569][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.570][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.571][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.572][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.573][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.574][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.575][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.575][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.576][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.578][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.578][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.578][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.579][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.579][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.580][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.580][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.581][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.581][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.582][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.582][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.582][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.583][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.584][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.584][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.585][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.596][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.597][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.598][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.599][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.600][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.601][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.602][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.603][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.604][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.605][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.605][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.606][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.606][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.607][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.608][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.608][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.608][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.609][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.609][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.610][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.611][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.611][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.612][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.613][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.614][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.616][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.617][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.617][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.618][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.618][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.619][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.619][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.620][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.622][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.622][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.623][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.636][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.637][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.638][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.638][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.639][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.640][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.640][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.641][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.641][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.642][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.642][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.643][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.644][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.644][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.645][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.645][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.646][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.647][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.648][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.648][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.649][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.649][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.650][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.650][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.651][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.651][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.652][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.652][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.653][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.655][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.662][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.663][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.665][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.666][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.667][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.668][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.679][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.680][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.681][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.681][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.682][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.683][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.683][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.684][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.684][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.685][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.686][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.687][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.688][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.688][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.689][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.689][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.690][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.690][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.691][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.692][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.693][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.694][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.695][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.695][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.696][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.697][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.697][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.698][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.699][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.700][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.702][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.703][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.705][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.706][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.707][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.708][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.720][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.721][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.723][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.725][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.726][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.728][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.729][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.730][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.730][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.731][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.732][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.733][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.734][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.735][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.735][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.736][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.737][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.737][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.738][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.739][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.740][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.741][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.741][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.742][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.743][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.743][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.744][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.744][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:29.920][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:30.187][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:30.465][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:30.779][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:32.305][warn] [#0:script/files.lua:490]: Compile [] takes [0.572] sec, size [1423.053] kb.
+[08:12:32.423][warn] [#0:script/files.lua:501]: Parse LuaDoc of [] takes [0.118] sec, size [1423.053] kb.
+[08:12:32.884][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:33.656][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:34.114][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:34.814][warn] [#0:script/files.lua:501]: Parse LuaDoc of [] takes [0.286] sec, size [111.607] kb.
+[08:12:34.815][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	
+[08:12:36.108][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/await.lua
+[08:12:36.134][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/await.lua	4
+[08:12:36.134][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/brave/brave.lua
+[08:12:36.141][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/brave/brave.lua	2
+[08:12:36.141][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/brave/init.lua
+[08:12:36.142][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/brave/log.lua
+[08:12:36.148][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/brave/work.lua
+[08:12:36.271][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/brave/work.lua	1
+[08:12:36.271][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/client.lua
+[08:12:36.347][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/client.lua	4
+[08:12:36.347][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/config/config.lua
+[08:12:36.389][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/config/config.lua	10
+[08:12:36.389][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/config/init.lua
+[08:12:36.389][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/config/loader.lua
+[08:12:36.405][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/config/loader.lua	4
+[08:12:36.405][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/code-action.lua
+[08:12:36.500][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/code-action.lua	4
+[08:12:36.500][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/collector.lua
+[08:12:36.502][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/command/autoRequire.lua
+[08:12:36.529][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/command/autoRequire.lua	1
+[08:12:36.529][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/command/jsonToLua.lua
+[08:12:36.537][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/command/removeSpace.lua
+[08:12:36.545][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/command/setConfig.lua
+[08:12:36.547][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/command/solve.lua
+[08:12:36.569][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/completion/completion.lua
+[08:12:37.121][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/completion/completion.lua	6
+[08:12:37.121][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/completion/init.lua
+[08:12:37.122][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/completion/postfix.lua
+[08:12:37.165][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/definition.lua
+[08:12:37.203][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/definition.lua	3
+[08:12:37.203][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/ambiguity-1.lua
+[08:12:37.223][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/await-in-sync.lua
+[08:12:37.230][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/circle-doc-class.lua
+[08:12:37.263][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/circle-doc-class.lua	1
+[08:12:37.264][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/close-non-object.lua
+[08:12:37.272][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/code-after-break.lua
+[08:12:37.280][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/count-down-loop.lua
+[08:12:37.293][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/deprecated.lua
+[08:12:37.314][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/different-requires.lua
+[08:12:37.333][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/different-requires.lua	1
+[08:12:37.333][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/discard-returns.lua
+[08:12:37.339][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/doc-field-no-class.lua
+[08:12:37.352][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/duplicate-doc-class.lua
+[08:12:37.370][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/duplicate-doc-class.lua	1
+[08:12:37.370][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/duplicate-doc-field.lua
+[08:12:37.388][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/duplicate-doc-param.lua
+[08:12:37.410][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/duplicate-index.lua
+[08:12:37.433][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/duplicate-index.lua	1
+[08:12:37.433][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/duplicate-set-field.lua
+[08:12:37.460][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/empty-block.lua
+[08:12:37.468][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/global-in-nil-env.lua
+[08:12:37.478][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/global-in-nil-env.lua	1
+[08:12:37.479][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/init.lua
+[08:12:37.488][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/init.lua	6
+[08:12:37.489][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/lowercase-global.lua
+[08:12:37.506][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/newfield-call.lua
+[08:12:37.523][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/newline-call.lua
+[08:12:37.538][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/no-implicit-any.lua
+[08:12:37.543][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/not-yieldable.lua
+[08:12:37.560][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/redefined-local.lua
+[08:12:37.569][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/redundant-parameter.lua
+[08:12:37.595][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/redundant-parameter.lua	2
+[08:12:37.595][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/redundant-return.lua
+[08:12:37.600][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/redundant-value.lua
+[08:12:37.606][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/trailing-space.lua
+[08:12:37.615][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/type-check.lua
+[08:12:38.026][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unbalanced-assignments.lua
+[08:12:38.030][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unbalanced-assignments.lua	2
+[08:12:38.030][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-doc-class.lua
+[08:12:38.052][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-doc-class.lua	2
+[08:12:38.052][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-doc-name.lua
+[08:12:38.061][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-doc-param.lua
+[08:12:38.089][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-doc-param.lua	3
+[08:12:38.090][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-env-child.lua
+[08:12:38.098][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-env-child.lua	1
+[08:12:38.099][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-field.lua
+[08:12:38.113][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-global.lua
+[08:12:38.126][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/undefined-global.lua	1
+[08:12:38.126][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unknown-diag-code.lua
+[08:12:38.147][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unused-function.lua
+[08:12:38.159][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unused-function.lua	1
+[08:12:38.159][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unused-label.lua
+[08:12:38.165][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unused-local.lua
+[08:12:38.195][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/diagnostics/unused-vararg.lua
+[08:12:38.212][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/document-symbol.lua
+[08:12:38.248][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/find-source.lua
+[08:12:38.252][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/find-source.lua	1
+[08:12:38.252][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/folding.lua
+[08:12:38.274][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/folding.lua	12
+[08:12:38.274][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/generic.lua
+[08:12:38.334][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/generic.lua	1
+[08:12:38.334][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/highlight.lua
+[08:12:38.370][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/highlight.lua	3
+[08:12:38.370][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hint.lua
+[08:12:38.449][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/arg.lua
+[08:12:38.460][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/arg.lua	1
+[08:12:38.460][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/description.lua
+[08:12:38.551][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/description.lua	2
+[08:12:38.552][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/init.lua
+[08:12:38.571][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/label.lua
+[08:12:38.606][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/name.lua
+[08:12:38.614][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/name.lua	2
+[08:12:38.614][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/return.lua
+[08:12:38.635][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/hover/table.lua
+[08:12:38.662][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/infer.lua
+[08:12:38.729][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/infer.lua	1
+[08:12:38.729][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/keyword.lua
+[08:12:38.743][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/keyword.lua	1
+[08:12:38.743][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/look-backward.lua
+[08:12:38.748][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/matchkey.lua
+[08:12:38.760][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/matchkey.lua	2
+[08:12:38.760][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/noder.lua
+[08:12:39.549][warn] [#0:script/core/diagnostics/init.lua:60]: Diagnostics [not-yieldable] @ [file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/noder.lua] takes [0.776] sec!
+[08:12:40.565][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/noder.lua	22
+[08:12:40.565][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/reference.lua
+[08:12:40.598][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/rename.lua
+[08:12:40.708][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/rename.lua	6
+[08:12:40.708][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/searcher.lua
+[08:12:40.991][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/searcher.lua	13
+[08:12:40.992][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/semantic-tokens.lua
+[08:12:41.099][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/semantic-tokens.lua	4
+[08:12:41.099][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/signature.lua
+[08:12:41.155][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/substring.lua
+[08:12:41.157][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/type-definition.lua
+[08:12:41.185][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/type-definition.lua	4
+[08:12:41.185][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/type-formatting.lua
+[08:12:41.202][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/core/workspace-symbol.lua
+[08:12:41.209][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/doctor.lua
+[08:12:41.253][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/doctor.lua	1
+[08:12:41.253][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/encoder/ansi.lua
+[08:12:41.255][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/encoder/init.lua
+[08:12:41.270][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/encoder/init.lua	4
+[08:12:41.270][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/encoder/utf16.lua
+[08:12:41.275][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/file-uri.lua
+[08:12:41.287][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/files.lua
+[08:12:41.376][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/files.lua	12
+[08:12:41.376][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/filewatch.lua
+[08:12:41.382][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/fs-utility.lua
+[08:12:41.481][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/fs-utility.lua	2
+[08:12:41.481][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/glob/gitignore.lua
+[08:12:41.515][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/glob/gitignore.lua	3
+[08:12:41.515][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/glob/glob.lua
+[08:12:41.527][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/glob/init.lua
+[08:12:41.528][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/glob/matcher.lua
+[08:12:41.540][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/glob/matcher.lua	2
+[08:12:41.540][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/global.d.lua
+[08:12:41.540][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/json-beautify.lua
+[08:12:41.548][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/json-beautify.lua	1
+[08:12:41.548][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/json.lua
+[08:12:41.569][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/json.lua	1
+[08:12:41.569][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/jsonrpc.lua
+[08:12:41.573][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/language.lua
+[08:12:41.586][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/language.lua	6
+[08:12:41.586][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/library.lua
+[08:12:41.643][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/library.lua	11
+[08:12:41.643][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/locale-loader.lua
+[08:12:41.646][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/log.lua
+[08:12:41.662][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/ast.lua
+[08:12:41.807][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/ast.lua	16
+[08:12:41.807][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/calcline.lua
+[08:12:41.812][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/calcline.lua	4
+[08:12:41.812][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/compile.lua
+[08:12:41.845][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/grammar.lua
+[08:12:41.856][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/guide.lua
+[08:12:41.915][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/guide.lua	1
+[08:12:41.915][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/init.lua
+[08:12:41.916][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/lines.lua
+[08:12:41.917][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/luadoc.lua
+[08:12:41.990][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/luadoc.lua	2
+[08:12:41.990][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/newparser.lua
+[08:12:42.160][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/newparser.lua	7
+[08:12:42.160][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/parse.lua
+[08:12:42.164][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/relabel.lua
+[08:12:42.184][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/relabel.lua	6
+[08:12:42.184][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/split.lua
+[08:12:42.186][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/parser/tokens.lua
+[08:12:42.187][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/plugin.lua
+[08:12:42.201][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/plugin.lua	7
+[08:12:42.201][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/progress.lua
+[08:12:42.213][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/progress.lua	1
+[08:12:42.213][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/proto/converter.lua
+[08:12:42.229][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/proto/define.lua
+[08:12:42.230][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/proto/init.lua
+[08:12:42.230][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/proto/proto.lua
+[08:12:42.252][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/proto/proto.lua	11
+[08:12:42.252][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/capability.lua
+[08:12:42.259][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/capability.lua	2
+[08:12:42.259][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/completion.lua
+[08:12:42.263][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/completion.lua	2
+[08:12:42.263][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/diagnostic.lua
+[08:12:42.318][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/diagnostic.lua	10
+[08:12:42.318][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/init.lua
+[08:12:42.319][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/markdown.lua
+[08:12:42.331][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/provider.lua
+[08:12:42.682][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/provider.lua	19
+[08:12:42.682][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/semantic-tokens.lua
+[08:12:42.694][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/provider/semantic-tokens.lua	3
+[08:12:42.695][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/pub/init.lua
+[08:12:42.695][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/pub/pub.lua
+[08:12:42.706][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/pub/pub.lua	7
+[08:12:42.706][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/pub/report.lua
+[08:12:42.716][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/pub/report.lua	2
+[08:12:42.716][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/service/init.lua
+[08:12:42.717][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/service/net.lua
+[08:12:42.735][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/service/service.lua
+[08:12:42.764][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/service/service.lua	3
+[08:12:42.764][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/service/telemetry.lua
+[08:12:42.783][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/service/telemetry.lua	5
+[08:12:42.783][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/string-merger.lua
+[08:12:42.798][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/text-merger.lua
+[08:12:42.807][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/text-merger.lua	2
+[08:12:42.808][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/timer.lua
+[08:12:42.815][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/timer.lua	1
+[08:12:42.816][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/tracy.lua
+[08:12:42.816][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/tracy.lua	2
+[08:12:42.816][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/utility.lua
+[08:12:42.866][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/utility.lua	6
+[08:12:42.866][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/version.lua
+[08:12:42.932][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/version.lua	1
+[08:12:42.933][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/eachDef.lua
+[08:12:42.936][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/eachRef.lua
+[08:12:42.939][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/getDocs.lua
+[08:12:43.024][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/getDocs.lua	2
+[08:12:43.025][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/getGlobals.lua
+[08:12:43.032][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/getLibrary.lua
+[08:12:43.037][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/getLinks.lua
+[08:12:43.053][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/init.lua
+[08:12:43.055][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/vm.lua
+[08:12:43.075][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/vm/vm.lua	4
+[08:12:43.075][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/without-check-nil.lua
+[08:12:43.079][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/workspace/init.lua
+[08:12:43.079][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/workspace/require-path.lua
+[08:12:43.098][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/workspace/require-path.lua	2
+[08:12:43.098][debug][#0:script/core/diagnostics/init.lua:75]: do diagnostic @	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/workspace/workspace.lua
+[08:12:43.188][debug][#0:script/provider/diagnostic.lua:253]: publishDiagnostics	file:///Users/runner/work/coc-lua-binaries/coc-lua-binaries/lua-language-server/script/workspace/workspace.lua	29
+[08:12:43.188][debug][#0:test.lua:111]: 测试完成

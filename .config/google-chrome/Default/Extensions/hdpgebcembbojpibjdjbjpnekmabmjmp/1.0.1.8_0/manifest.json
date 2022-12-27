@@ -1,0 +1,22 @@
+{
+   "api_console_project_id": "269101137627",
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "http://podcastapp.ehubsoft.net/"
+      },
+      "urls": [ "http://podcastapp.ehubsoft.net/" ]
+   },
+   "container": "GOOGLE_DRIVE",
+   "default_locale": "en",
+   "description": "__MSG_ext_description__",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAocptDxhq7Ar2RFK5tktdOy2lVuIRpf+YeSRCGGAL5e/ubDt/jIIz8Su/jYMr1pMApI0KBv17a0R489FYGEHOtH0+o2DkBCJt0xW8ZqNUV8J/TRJfw7qYNfOg5XSglt65T8M1yzVrrdswzP1csbKuC7OPEgeib3TKtkrLXzwyiGdR2HuIfwahC8yut3sklKoD6DGSiRt8FRzXVfTuwjAqDnraOqUtRsUqOvyGKFWGEP23Q0FiZdSeS69UEkw05CrgmtwTk8Q/1DejFS/nPcfsVly9YEgaSJ8nBQzlZ5tqCzxwMPciAjqzH40i5uiAQ8X5PHAzXftyHR5T5EzwLrzGhQIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_ext_name__",
+   "permissions": [ "unlimitedStorage" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.1.8"
+}
