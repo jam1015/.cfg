@@ -5,12 +5,14 @@ local opts = { noremap = true, silent = true }
 ---- Shorten function name
 local keymap = vim.api.nvim_set_keymap
 --
-keymap("n", "<Space>", "<NOP>", opts)
+keymap("n", "<Space>", "", opts)
 vim.g.mapleader = " "
 vim.g.mapllocaleader = "\\"
 
-keymap("n", "<leader>ll", ":noh<CR>", opts)
-
+-- defining functions that can be used to make command line abbreviations elsewhere
+keymap("n", "<leader>ll", ":nohlsearch<CR>", opts)
+keymap("n", "<leader>km", ":redir! > nvim_keys.txt<CR>:silent verbose map<CR>:redir END<CR>:edit nvim_keys.txt<CR>"
+, opts)
 
 vim.cmd([[
 "nnoremap <Space> <NOP>
@@ -77,3 +79,4 @@ tnoremap <Esc> <C-\><C-n>
 ""nnoremap ^ g^
 ""nnoremap g^ ^
 ]])
+

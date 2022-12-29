@@ -1,4 +1,4 @@
-			vim.cmd([[
+vim.cmd([[
  nmap <leader>m,   <plug>(emmet-expand-abbr)
  nmap <leader>m;   <plug>(emmet-expand-word)
  nmap <leader>mu   <plug>(emmet-update-tag)
@@ -16,4 +16,5 @@
  nmap <leader>mc   <plug>(emmet-code-pretty)
  "let g:user_emmet_leader_key = '<M-y>'
  	]])
-			vim.g.user_emmet_leader_key = "<M-y>"
+vim.g.user_emmet_leader_key = "<M-y>" --use this to expand emmet
+

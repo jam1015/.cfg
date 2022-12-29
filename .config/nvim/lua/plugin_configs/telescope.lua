@@ -130,13 +130,14 @@ telescope.setup {
 	}
 }
 
+telescope.load_extension('file_browser')
 local keymap = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 keymap("n", "<leader>tf",
-	"<cmd>lua require'telescope.builtin'.find_files(require('telescope.themes').get_dropdown({ previewer = false }))<cr>",
+	"<cmd>lua require'telescope.builtin'.find_files()<cr>",
 	opts)
 
 keymap("n", "<leader>tg", "<cmd>Telescope live_grep<cr>", opts)
+
 --telescope.load_extension('fzf')
 --telescope.load_extension('arecibo')
-telescope.load_extension('file_browser')

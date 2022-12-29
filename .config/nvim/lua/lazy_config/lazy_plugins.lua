@@ -1,78 +1,54 @@
 return {
 
-	'dstein64/vim-startuptime',
+	{ 'dstein64/vim-startuptime', config = function() require("plugin_configs/vim-startuptime") end },
 	("nvim-lua/plenary.nvim"),
 	("nvim-lua/popup.nvim"),
-	("andymass/vim-matchup"),
-	("farmergreg/vim-lastplace"),
+	({ "farmergreg/vim-lastplace" }),
 
 	{ "airblade/vim-rooter", config = function()
-		vim.cmd([[let g:rooter_manual_only = 1
- nnoremap <leader>f:  :edit <c-r>=FindRootDirectory()<CR>/**/*
- ]])
+		require("plugin_configs.vim-rooter")
 	end },
 
 	({
 		"sitiom/nvim-numbertoggle",
 		lazy = true,
 		event = { "CursorMoved *", "CmdLineEnter *", "InsertEnter *" },
-		config = function()
-			require("numbertoggle").setup()
-		end,
 		init = function()
-			vim.cmd([[
-  	set number
-  	set relativenumber
-  	]])
+			require("plugin_configs.nvim-numbertoggle_init")
 		end,
 	}),
 
-
-	{ "vim-scripts/ScrollColors" }, --
+	{ "mzlogin/vim-markdown-toc", event = "VeryLazy",
+	},
 	({
 		"folke/tokyonight.nvim",
 		branch = "main",
 		config = function()
 
 			require("plugin_configs.tokyonight")
-		end,
+		end
 	}),
-	-- 	--
+
 	({
-		"ellisonleao/gruvbox.nvim",
-		config = function()
-			-- vim.o.background = "dark"
-		end,
+		"ellisonleao/gruvbox.nvim"
 	}),
 	"overcache/NeoSolarized",
-	{ "catppuccin/nvim", as = "catppuccin", config = function() require("plugin_configs.catpuccin") end },
-	-- plugins
 	("tpope/vim-unimpaired"),
 
 	({
-		"lervag/vimtex",
+		"lervag/vimtex", event = "VeryLazy",
 
-		init = function()
-			vim.cmd([[
-     
-  let g:vimtex_view_method = 'zathura'
-  let g:vimtex_view_general_viewer = 'zathura'
-  let g:vimtex_view_enabled=1
-  let g:vimtex_complete_enabled=0
-    	]])
+		build = function()
+			require("plugin_configs.vimtex")
 		end,
 	}),
 
 	{
-		"kana/vim-textobj-,
-		dependencies = "kana/vim-textobj-entire",
+		"kana/vim-textobj-entire", event = "VeryLazy",
+		dependencies = "kana/vim-textobj-user",
 	},
-	-- 	("fladson/vim-kitty"),
-	--
-	--
-	--
 	({
-		"kylechui/nvim-surround",
+		"kylechui/nvim-surround", event = "VeryLazy",
 		config = function()
 			require("plugin_configs.nvim-surround")
 		end,
@@ -80,22 +56,18 @@ return {
 
 
 	({
-		"folke/which-key.nvim",
+		"folke/which-key.nvim", event = "VeryLazy",
 		config = function()
-			require("which-key").setup({
-				-- your configuration comes here
-				-- or leave it empty to  the default settings
-				-- refer to the configuration section below
-			})
+			require("plugin_configs.which-key")
 		end,
 	}),
 
-	("bronson/vim-visual-star-search"),
-	("tpope/vim-repeat"),
-	("qpkorr/vim-bufkill"),
-	("kevinoid/vim-jsonc"),
+	{ "bronson/vim-visual-star-search", event = "VeryLazy" },
+	{ "tpope/vim-repeat", event = "VeryLazy" },
+	{ "qpkorr/vim-bufkill", event = "VeryLazy" },
+	{ "kevinoid/vim-jsonc", event = "VeryLazy" },
 	({
-		"jpalardy/vim-slime",
+		"jpalardy/vim-slime", event = "VeryLazy",
 		config = function()
 			require("plugin_configs.vim-slime")
 		end,
@@ -103,7 +75,7 @@ return {
 
 
 	({
-		"mattn/emmet-vim",
+		"mattn/emmet-vim", event = "VeryLazy",
 		lazy = true,
 
 		config = function()
@@ -125,26 +97,20 @@ return {
 	}),
 
 	({
-		"jalvesaq/Nvim-R",
+		"jalvesaq/Nvim-R", ft = { "R", "r", "rmd", "Rmd", "RMD" },
 		branch = "stable",
 		config = function()
-			vim.cmd([[
-  let R_external_term = 'alacritty -e' 
-   ]])
+			require("plugin_configs.Nvim-R")
 		end,
 	}),
 
-	("ibhagwan/fzf-lua"),
+	({ "ibhagwan/fzf-lua", event = "VeryLazy" }),
 
 	({
-		"nvim-telescope/telescope.nvim",
+		"nvim-telescope/telescope.nvim", event = "VeryLazy",
 		dependencies = { "nvim-lua/plenary.nvim",
---			{ "nvim-telescope/telescope-fzf-native.nvim",
---				build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' },
-			{
-				"nvim-telescope/telescope-arecibo.nvim",
-				--rocks = {"openssl", "lua-http-parser"}
-			},
+			{ "nvim-telescope/telescope-fzf-native.nvim",
+				build = 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' },
 			"nvim-telescope/telescope-file-browser.nvim" },
 		config = function()
 			require("plugin_configs.telescope")
@@ -152,24 +118,22 @@ return {
 	}),
 
 	({
-		"phaazon/hop.nvim",
+		"phaazon/hop.nvim", event = "VeryLazy",
 		disable = true,
 		config = function()
-			--require'hop'.)
-			vim.cmd([[
-   nnoremap  <leader>ww :HopWord<CR>
-   	]])
+			require('plugin_configs.hop')
 		end,
 	}),
 
 	({
-		"ggandor/leap.nvim",
+		"ggandor/leap.nvim", event = "VeryLazy",
 		config = function()
-			require("leap").add_default_mappings()
 
+			require('plugin_configs.leap')
 		end,
 	}),
 
+	{ "andymass/vim-matchup", dependencies = "nvim-treesitter" }, --,event = "VeryLazy"},
 	({
 		"nvim-treesitter/nvim-treesitter",
 		build = "TSUpdate",
@@ -178,10 +142,9 @@ return {
 		end),
 	}),
 
+
 	({
-		"folke/trouble.nvim",
-		dependencies = { "kyazdani42/nvim-web-devicons" },
-		event = "VimEnter",
+		"folke/trouble.nvim", event = "VeryLazy",
 		config = function()
 			require("plugin_configs.trouble")
 		end,
@@ -201,19 +164,20 @@ return {
 
 
 
-	{ "williamboman/mason.nvim",
-	},
-
-	{ "williamboman/mason-lspconfig.nvim",
-	},
 
 
 	{ "neovim/nvim-lspconfig",
+		event = { "BufReadPost" },
+		lazy = true,
 		--						event = {"InsertEnter"}
 		--
-		event = { "BufReadPre", "BufNewFile", "BufRead" },
+		--event = { "BufReadPre", "BufNewFile", "BufRead" },
 
-		dependencies = { "onsails/lspkind.nvim", }, -- "RRethy/vim-illuminate" },
+		dependencies = { "onsails/lspkind.nvim",
+			"williamboman/mason.nvim",
+			"williamboman/mason-lspconfig.nvim",
+
+		}, -- "RRethy/vim-illuminate" },
 		config = function()
 
 			require("plugin_configs.lsp")
@@ -223,14 +187,14 @@ return {
 	({
 		"hrsh7th/nvim-cmp",
 		disable = false,
-		event = { 'InsertEnter', 'CmdLineEnter', 'BufReadPre' },
+		event = "VeryLazy",
 		dependencies = {
-			{ "onsails/lspkind.nvim", },
-			{ "hrsh7th/cmp-nvim-lsp", },
-			{ "hrsh7th/cmp-nvim-lua", },
-			{ "hrsh7th/cmp-buffer", },
-			{ "hrsh7th/cmp-path", },
-			{ "hrsh7th/cmp-cmdline", },
+			{ "onsails/lspkind.nvim", event = "VeryLazy" },
+			{ "hrsh7th/cmp-nvim-lsp", event = "VeryLazy" },
+			{ "hrsh7th/cmp-nvim-lua", event = "VeryLazy" },
+			{ "hrsh7th/cmp-buffer", event = "VeryLazy" },
+			{ "hrsh7th/cmp-path", event = "VeryLazy" },
+			{ "hrsh7th/cmp-cmdline", event = "VeryLazy" },
 			{
 				"L3MON4D3/LuaSnip", -- tag = "v<CurrentMajor>.*",
 				dependencies = { "rafamadriz/friendly-snippets" },
@@ -238,6 +202,7 @@ return {
 					require("plugin_configs.LuaSnip")
 				end,
 
+				event = "VeryLazy"
 			},
 			{ "saadparwaiz1/cmp_luasnip", }
 		},
@@ -255,6 +220,30 @@ return {
 		init = function()
 			require("plugin_configs.coc")
 		end,
+		event = "VeryLazy",
 	}),
 
+	{ "lifecrisis/vim-difforig", event = "VeryLazy" },
+	{ "numToStr/Comment.nvim", config = function() require("plugin_configs.Comment") end, event = "VeryLazy" },
+	{ "JoosepAlviste/nvim-ts-context-commentstring", event = "VeryLazy" },
+
+	{ "lewis6991/gitsigns.nvim", config = function() require("plugin_configs.gitsigns") end, lazy = true },
+	{
+		'nvim-tree/nvim-tree.lua',
+		dependencies = {
+		},
+		tag = 'nightly', -- optional, updated every week. (see issue #1193)
+		config = function() require("plugin_configs.nvim-tree") end
+
+	},
+
+	{ "moll/vim-bbye" },
+
+	{ 'akinsho/bufferline.nvim',
+		enabled = false,
+		--tag = "v3.*",
+		config = function() require("plugin_configs.bufferline") end
+	},
+
+	'nvim-tree/nvim-web-devicons',
 }

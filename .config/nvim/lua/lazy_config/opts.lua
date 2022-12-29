@@ -2,7 +2,7 @@ return {
 root = vim.fn.stdpath("data") .. "/lazy", -- directory where plugins will be installed
 defaults = {
   lazy = false,
-  version = nil,
+  version = "*",
   -- version = "*", -- enable this to try installing the latest stable versions of plugins
 },
 lockfile = vim.fn.stdpath("config") .. "/lazy-lock.json", -- lockfile generated after running update.

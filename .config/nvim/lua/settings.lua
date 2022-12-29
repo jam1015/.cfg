@@ -18,6 +18,7 @@ end
 --
 set.modeline = false
 set.completeopt = 'menu,menuone,noselect'
+set.shortmess = "I"
 set.hlsearch = true
 set.undofile = true --persistent undo
 set.gdefault = true
@@ -59,3 +60,4 @@ vim.g.netrw_liststyle = 3
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
 vim.g.c_comment_strings = 1 --can be any value
+set.pumheight = 10

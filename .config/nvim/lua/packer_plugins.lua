@@ -42,17 +42,14 @@ return packer.startup(function(use)
 	use("nvim-lua/popup.nvim")
 	use("andymass/vim-matchup")
 	use("farmergreg/vim-lastplace")
-	use { "airblade/vim-rooter", config = function()
-		vim.cmd([[let g:rooter_manual_only = 1
- nnoremap <leader>fr:  :edit <c-r>=FindRootDirectory()<CR>/**/*
- ]])
-	end }
+	use { "airblade/vim-rooter", config =function()
+		require("plugin_configs.vim-rooter")
+	end  }
 
-use {
-	"windwp/nvim-autopairs",
-    config = function() require("plugin_configs.nvim-autopairs") end
-}
---TODO: add autopairs, jjj
+	use {
+		"windwp/nvim-autopairs",
+		config = function() require("plugin_configs.nvim-autopairs") end
+	}
 
 	use({
 		"sitiom/nvim-numbertoggle",
@@ -68,7 +65,6 @@ use {
 
 
 	--use { "vim-scripts/ScrollColors" } --
-	use { "aktersnurra/no-clown-fiesta.nvim" }
 	use({
 		"folke/tokyonight.nvim",
 		branch = "main",
@@ -79,9 +75,6 @@ use {
 
 	use({
 		"ellisonleao/gruvbox.nvim",
-		config = function()
-			-- vim.o.background = "dark"
-		end,
 	})
 	use "overcache/NeoSolarized"
 	use { "catppuccin/nvim", as = "catppuccin", config = function() require("plugin_configs.catpuccin") end }
@@ -91,12 +84,7 @@ use {
 	use({
 		"lervag/vimtex",
 		setup = function()
-			vim.cmd([[
-  let g:vimtex_view_method = 'zathura'
-  let g:vimtex_view_general_viewer = 'zathura'
-  let g:vimtex_view_enabled=1
-  let g:vimtex_complete_enabled=0
- 	]])
+			require("plugin_configs.vimtex")
 		end,
 	})
 
@@ -129,7 +117,6 @@ use {
 
 	use("bronson/vim-visual-star-search")
 	use("tpope/vim-repeat")
-	use("qpkorr/vim-bufkill")
 	use("kevinoid/vim-jsonc")
 	use({
 		"jpalardy/vim-slime",
@@ -178,7 +165,7 @@ use {
 		requires = {
 			{ "nvim-telescope/telescope-file-browser.nvim" },
 			{ "nvim-lua/plenary.nvim" },
-			{ "nvim-telescope/telescope-fzf-native.nvim", run = "make" },
+			{ "nvim-telescope/telescope-fzf-native.nvim", run = "cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build"},
 		},
 		config = function()
 			require("plugin_configs.telescope")
@@ -211,7 +198,7 @@ use {
 
 	use({
 		"nvim-treesitter/nvim-treesitter",
-	requires = {"p00f/nvim-ts-rainbow", enable = false},
+		requires = { "p00f/nvim-ts-rainbow", enable = false },
 		--event = { "BufReadPre", "BufNewfile" },
 		run = "TSUpdate",
 		config = vim.schedule(function()
@@ -294,11 +281,28 @@ use {
 	})
 
 	use { "lifecrisis/vim-difforig" }
-	use {"numToStr/Comment.nvim", config = function() require("plugin_configs.Comment") end}
+	use { "numToStr/Comment.nvim", config = function() require("plugin_configs.Comment") end }
 	use "JoosepAlviste/nvim-ts-context-commentstring"
 
+	use {opt = true, "lewis6991/gitsigns.nvim", config = function() require("plugin_configs.gitsigns") end }
 	--	-- Automatically set up your configuration after cloning packer.nvim
 	--	-- Put this at the end after all plugins
+	use {
+		'nvim-tree/nvim-tree.lua',
+		requires = {
+			'nvim-tree/nvim-web-devicons', -- optional, for file icons
+		},
+		tag = 'nightly', -- optional, updated every week. (see issue #1193)
+		config = function() require("plugin_configs.nvim-tree") end
+
+	}
+	use({disable = true, "roblillack/vim-bufferlist", config = function() require("plugin_configs.vim-bufferlist")end})
+	use { 'akinsho/bufferline.nvim',
+		disable = true,
+		tag = "v3.*",
+		requires = 'nvim-tree/nvim-web-devicons',
+		config = function() require("plugin_configs.bufferline") end }
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
