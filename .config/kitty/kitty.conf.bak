@@ -90,9 +90,9 @@ clipboard_control write-primary write-clipboard no-append
 #bold_italic_font Iosevka Bold Extended Italic
 #font_size 5.5
 
-#font_family      Cascadia Mono
+#font_family      Cascadia Mono Light
 #bold_font        Cascadia Mono Bold
-#italic_font      Cascadia Mono Italic
+#italic_font      Cascadia Mono Light Italic
 #bold_italic_font Cascadia Mono Bold Italic
 #font_size 10
 
@@ -135,10 +135,10 @@ clipboard_control write-primary write-clipboard no-append
 
 
 
-#font_family      Anonymous Pro
-#bold_font        Anonymous Pro
-#italic_font      Anonymous Pro
-#bold_italic_font Anonymous Pro
+font_family      Courier Prime
+bold_font        Courier Prime
+italic_font      Courier Prime
+bold_italic_font Courier Prime
 
 #font_features CourierPrimeNerdFont-Regular -liga
 
@@ -1575,6 +1575,6 @@ clipboard_control write-primary write-clipboard no-append
 
 
 # BEGIN_KITTY_THEME
-# Farin
+# Wryan
 include current-theme.conf
 # END_KITTY_THEME

@@ -1,0 +1,6 @@
+{
+  "gruvbox.nvim": { "branch": "main", "commit": "c64ec557672c9c8ecc71a438533525482021377f" },
+  "nvim-treesitter": { "branch": "master", "commit": "ee3e9f4dc0e5ee9e2bfb1ee47638375840b8fe0f" },
+  "tokyonight.nvim": { "branch": "main", "commit": "95c88be515550bd519ffe54eeaa2df5b9af62cc5" },
+  "vim-matchup": { "branch": "master", "commit": "db5120dd9887c988de7cd973ddb951e465d413e5" }
+}

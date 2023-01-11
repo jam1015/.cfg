@@ -1,230 +1,107 @@
-# something that has to do with anaconda ```````````````
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-## Use powerline
-#USE_POWERLINE="true"
-## Source manjaro-zsh-configuration
-#if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
-#  source /usr/share/zsh/manjaro-zsh-config
-#fi
-## Use manjaro zsh prompt
-#if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
-#  source /usr/share/zsh/manjaro-zsh-prompt
-#fi
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.dotfiles/oh-my-zsh"
 
-__conda_setup="$('/opt/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+#ZSH_THEME="duellj"
+
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
+
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
+
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+
+# Uncomment the following line to change how often to auto-update (in days).
+# zstyle ':omz:update' frequency 13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
+
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
+
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
+
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
+
+# Uncomment the following line to display red dots whilst waiting for completion.
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
+# COMPLETION_WAITING_DOTS="true"
+
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+if [ -f ~/.zshrc_personal ]; then
+    source ~/.zshrc_personal
 else
-    if [ -f "/opt/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/opt/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/opt/anaconda3/bin:$PATH"
-    fi
+    print "404: ~/.zshrc_personal not found."
 fi
-unset __conda_setup
 
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
-# <<< conda initialize <<<
+# export MANPATH="/usr/local/man:$MANPATH"
 
-# ``````````Vim configuration things`````
-export vimrc="$HOME/.config/nvim/init.lua"
-export NVIM_LISTEN_ADDRESS="/tmp/nvimsocket"
-alias vi='nvim'
-alias python='ptpython --vi --dark-bg'
-#alias tmux="tmux -u"
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
 
-#alias vim='nvim'
-export VISUAL=/usr/bin/nvim #use nvim as default editor
-export EDITOR=/usr/bin/nvim #use nvim as default editor
-export VIMCONFIG=~/.config/nvim #vim configuration directory
-export VIMDATA=~/.local/share/nvim # vim data directory (need to learn more about this)
-#alias van="man -P 'nvim -c call\ ToggleNumberToggle\(\) -c set\ norelativenumber -c set\ nonumber  -c Man!'" #use vim as man pager
-alias van="man -P 'nvim -c Man! -c set\ nonumber -c set\ norelativenumber'" # -c call\ ToggleNumberToggle\(\) -c set\ norelativenumber -c set\ nonumber  -c Man!'" #use vim as man pager # use gO to for TOC
-set -o vi #use vi editing mode in the terminal
-bindkey '^?' backward-delete-char
-KEYTIMEOUT=1
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
 
-#settings for cs50
-#export CC="clang"
-#export CFLAGS="-fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow"
-#export LDLIBS="-lcs50 -lm"
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
 
-export FLASK_DEBUG=1
-export FLASK_APP=application.py
-export API_KEY=pk_c16b282717334bbeaae03699c19a03e1
-
-# ````````````` Not sure what these settings are for
-export LIBRARY_PATH=/usr/local/lib
-export C_INCLUDE_PATH=/usr/local/include
-export LD_LIBRARY_PATH=/usr/local/lib
-export LDFLAGS="-L/usr/local/opt/sqlite/lib"
-export CPPFLAGS="-I/usr/local/opt/sqlite/include"
-export PKG_CONFIG_PATH="/usr/local/opt/sqlite/lib/pkgconfig"
-# ```````````````Path Settings ``````````````````
-#this is supposed to help with doom emacs
-#export PATH="/usr/bin:$PATH"
-export PATH=$PATH:~/doom-emacs/bin
-export PATH=$PATH:"/usr/local/opt/llvm/bin"
-#might help for sqlite
-export PATH="/usr/local/opt/sqlite/bin:$PATH"
-#alacrity colorcheme
-export PATH=$PATH:"/Users/jordanmandel/Library/Python/4.8/bin"
-export PATH=$PATH:"$HOME/.local/bin"
-export PATH="${PATH}:${HOME}/bin"
-export PATH="${PATH}:${HOME}/Documents/lsps/lua-language-server/bin"
-
-#history settings
-SAVEHIST=100000 #stting the history length
-HISTSIZE=100000 #stting the history length
-HISTFILE=~/.zhistory
-bindkey "^R" history-incremental-pattern-search-backward
-
-# setting some useful environment variables
-export todo="$HOME/Documents/diaries/to_do.md"
-export diaries="$HOME/Documents/diaries/diaries.md"
-export tododir="$HOME/Documents/diaries/"
-export thoughts="$HOME/Documents/diaries/thoughts.md"
-export memories="$HOME/Documents/diaries/memories.md"
-
-export swap="$HOME/.local/share/nvim/swap"
-#export BROWSER="/usr/bin/firefox-developer-edition"
-
-# 
-#setting purple prompt
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
 #
-# msgcat --color=test
-# for x in {0..8}; do for i in {30..37}; do for a in {40..47}; do echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "; done; echo; done; done; echo ""
-#
-
-
-# perform parameter expansion/command substitution in prompt
-setopt PROMPT_SUBST
-
-vim_ins_mode=">"
-vim_cmd_mode="%%"
-vim_mode=$vim_ins_mode
-
-function zle-keymap-select {
-  vim_mode="${${KEYMAP/vicmd/${vim_cmd_mode}}/(main|viins)/${vim_ins_mode}}"
-  zle reset-prompt
-}
-
-zle -N zle-keymap-select
-
-function zle-line-finish {
-  vim_mode=$vim_ins_mode
-}
-zle -N zle-line-finish
-
-
-
-if [[ "$EUID" = 0 ]]
-then 
-PS1='%B%F{green}su:%3~ ${vim_mode}%f%b '
-else
-PS1='%B%F{magenta}%3~ ${vim_mode}%f%b '
-fi
-
-
-# setting other alases
-alias cb=clipboard
-alias ll='ls -lG'
-alias ls='ls -G'
-alias pd='pandoc'
-
-# to run these commands install gnustep-base
-defaults write -g InitialKeyRepeat -int 15 #normal minimum is 15 (225 ms)
-defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
-
-
-if [[ $TERM == "xterm-kitty" ]]; then
-alias ssh="kitty +kitten ssh"
-echo "changed ssh for kitty"
-fi
-#automatic tmux colors
-if [ -n "$TMUX" ]; then
-    T=$(tmux display -p '#{client_termname}')
-    case "$T" in
-    *-256color)
-         export TERM=tmux-256color
-         ;;
-    *)
-         export TERM=tmux
-         ;;
-    esac
-fi
-
-
-mkcd () {
-  mkdir "$1" && cd "$1"
-}
-
-
-mkcdp () {
-  mkdir -p "$1" && cd "$1"
-}
-
-
-cpc() {
-cp basic_headers.cpp $1
-}
-#xset r rate 250 35
-#=======
-export ght="https://gitlab.com/jam1015/ght.git/"
-#http-server -a localhost -p 8000
-
-
-alias luamake=/home/jordan/Documents/lsps/lua-language-server/3rd/luamake/luamake
-alias pdflatex="pdflatex -synctex=1"
-alias j4-dmenu-desktop='j4-dmenu-desktop --dmenu="(cat ; (stest -flx $(echo $PATH | tr : ' ') | sort -u)) | dmenu"'
-
-ocl() {
-    "$@" &
-    disown
-    exit
-}
-
-
-cl() {
-    "$@" &
-    disown
-}
-
-#init nvm
-FILE=/usr/share/nvm/init-nvm.sh
-if test -f "$FILE"; then
-    source $FILE
-fi
-
-
-if [ -n "$TMUX" ]; then
-	function refresh {
-		 echo $(tmux show-environment | grep "^I3SOCK") > /dev/null
-		 echo $(tmux show-environment | grep "^SSH_AUTH_LOCK") > /dev/null
-		 echo $(tmux show-environment | grep "^SSH_CONNECTION") > /dev/null
-		 echo $(tmux show-environment | grep "^DISPLAY") > /dev/null
-	}
-
-else
-	function refresh { }
-fi
-
-function preexec {
-	refresh
-
-}
-
-echo ".zshrc sourced"
-
-
-
-# bun completions
-[ -s "/home/jordan/.bun/_bun" ] && source "/home/jordan/.bun/_bun"
-
-# bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"

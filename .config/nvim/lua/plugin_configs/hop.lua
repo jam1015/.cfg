@@ -1,3 +1,4 @@
-			vim.cmd([[
-   nnoremap  <leader>ww :HopWord<CR>
-   	]])
+require 'hop'.setup()
+
+
+require "plugin_keymaps".pluginKeymaps("hop", "config")

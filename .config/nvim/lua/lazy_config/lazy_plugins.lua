@@ -1,9 +1,28 @@
 return {
+	{ "lukas-reineke/indent-blankline.nvim", config = function() require("plugin_configs.indent-blankline") end,
+		event = "VeryLazy" },
+	"overcache/NeoSolarized",
+	({
+		"folke/tokyonight.nvim",
+		branch = "main",
+		config = function()
 
-	{ 'dstein64/vim-startuptime', config = function() require("plugin_configs/vim-startuptime") end },
+			require("plugin_configs.tokyonight")
+		end,
+		event = "VeryLazy"
+	}),
+
+
+	({
+		"ellisonleao/gruvbox.nvim", event = "VeryLazy"
+	}),
+
+	{ 'dstein65/vim-startuptime',
+		enabled = false,
+		config = function() require("plugin_configs/vim-startuptime") end },
 	("nvim-lua/plenary.nvim"),
 	("nvim-lua/popup.nvim"),
-	({ "farmergreg/vim-lastplace" }),
+	({ "ethanholz/nvim-lastplace", config = function() require("plugin_configs.nvim-lastplace") end }),
 
 	{ "airblade/vim-rooter", config = function()
 		require("plugin_configs.vim-rooter")
@@ -20,20 +39,14 @@ return {
 
 	{ "mzlogin/vim-markdown-toc", event = "VeryLazy",
 	},
-	({
-		"folke/tokyonight.nvim",
-		branch = "main",
-		config = function()
 
-			require("plugin_configs.tokyonight")
-		end
-	}),
-
-	({
-		"ellisonleao/gruvbox.nvim"
-	}),
-	"overcache/NeoSolarized",
-	("tpope/vim-unimpaired"),
+	{ "tpope/vim-unimpaired", event = "VeryLazy" },
+	{
+		"windwp/nvim-autopairs",
+		enabled = false,
+		event = "VeryLazy",
+		config = function() require("plugin_configs.nvim-autopairs") end
+	},
 
 	({
 		"lervag/vimtex", event = "VeryLazy",
@@ -77,21 +90,25 @@ return {
 	({
 		"mattn/emmet-vim", event = "VeryLazy",
 		lazy = true,
+		init = function()
+			require("plugin_configs.emmet-vim.init")
+		end,
 
 		config = function()
-			require("plugin_configs.emmet-vim")
+			require("plugin_configs.emmet-vim.config")
 		end,
-		ft = { "js", "ts", "html", "htm", "tsx", "jsx" },
+		ft = { "js", "ts", "html", "htm", "tsx", "jsx", "md" },
 	}),
 
-	("lukas-reineke/indent-blankline.nvim"),
 
 	({ -- run 'call firenvim#install(0)' to perhaps fix issues when it is not running in browser
 		"glacambre/firenvim",
 		build = function()
 			vim.fn["firenvim#install"](0)
 		end,
-		init = function()
+		--event = "VeryLazy",
+
+		config = function()
 			require("plugin_configs.firenvim")
 		end,
 	}),
@@ -125,6 +142,8 @@ return {
 		end,
 	}),
 
+	{ "ggandor/flit.nvim", event = "VeryLazy", dependencies = "ggandor/leap.nvim",
+		config = function() require("plugin_configs.flit") end },
 	({
 		"ggandor/leap.nvim", event = "VeryLazy",
 		config = function()
@@ -133,15 +152,16 @@ return {
 		end,
 	}),
 
-	{ "andymass/vim-matchup", dependencies = "nvim-treesitter" }, --,event = "VeryLazy"},
+	{ "andymass/vim-matchup", event = { "BufNewFile", "BufRead" }, },
+	{ "numToStr/Comment.nvim", config = function() require("plugin_configs.Comment") end, event = "VeryLazy" },
+	{ "JoosepAlviste/nvim-ts-context-commentstring", event = "VeryLazy" },
+
 	({
-		"nvim-treesitter/nvim-treesitter",
-		build = "TSUpdate",
+		"nvim-treesitter/nvim-treesitter", --event = "VeryLazy",
 		config = vim.schedule(function()
 			require("plugin_configs.nvim-treesitter")
 		end),
 	}),
-
 
 	({
 		"folke/trouble.nvim", event = "VeryLazy",
@@ -150,25 +170,34 @@ return {
 		end,
 	}),
 
-	--	({ 'MunifTanjim/prettier.nvim', disable = true, config = function()
-	--		require("plugin_configs.prettier")
-	--	end }),
-
-	--	({
-	--		"jose-elias-alvarez/null-ls.nvim",
-	--		event = "VimEnter",
-	--		config = function()
-	--			require("plugin_configs.lsp/null-ls")
-	--		end,
-	--	}),
 
 
+	{ "lifecrisis/vim-difforig", event = "VeryLazy" },
 
+	{ "lewis6991/gitsigns.nvim", config = function() require("plugin_configs.gitsigns") end, lazy = true },
+	{
+		'nvim-tree/nvim-tree.lua', event = "VeryLazy",
+		dependencies = {
+		},
+		tag = 'nightly', -- optional, updated every week. (see issue #1193)
+		config = function() require("plugin_configs.nvim-tree") end
 
+	},
+
+	{ "moll/vim-bbye" },
+
+	{ 'akinsho/bufferline.nvim',
+		enabled = false,
+		--tag = "v3.*",
+		config = function() require("plugin_configs.bufferline") end
+	},
+
+	'nvim-tree/nvim-web-devicons',
 
 	{ "neovim/nvim-lspconfig",
-		event = { "BufReadPost" },
-		lazy = true,
+		enabled = true,
+		event = { "BufReadPre" },
+		--	lazy = true,
 		--						event = {"InsertEnter"}
 		--
 		--event = { "BufReadPre", "BufNewFile", "BufRead" },
@@ -179,14 +208,13 @@ return {
 
 		}, -- "RRethy/vim-illuminate" },
 		config = function()
-
 			require("plugin_configs.lsp")
 		end },
 	--"mfussenegger/nvim-dap",
 
 	({
 		"hrsh7th/nvim-cmp",
-		disable = false,
+		enabled = true,
 		event = "VeryLazy",
 		dependencies = {
 			{ "onsails/lspkind.nvim", event = "VeryLazy" },
@@ -223,27 +251,4 @@ return {
 		event = "VeryLazy",
 	}),
 
-	{ "lifecrisis/vim-difforig", event = "VeryLazy" },
-	{ "numToStr/Comment.nvim", config = function() require("plugin_configs.Comment") end, event = "VeryLazy" },
-	{ "JoosepAlviste/nvim-ts-context-commentstring", event = "VeryLazy" },
-
-	{ "lewis6991/gitsigns.nvim", config = function() require("plugin_configs.gitsigns") end, lazy = true },
-	{
-		'nvim-tree/nvim-tree.lua',
-		dependencies = {
-		},
-		tag = 'nightly', -- optional, updated every week. (see issue #1193)
-		config = function() require("plugin_configs.nvim-tree") end
-
-	},
-
-	{ "moll/vim-bbye" },
-
-	{ 'akinsho/bufferline.nvim',
-		enabled = false,
-		--tag = "v3.*",
-		config = function() require("plugin_configs.bufferline") end
-	},
-
-	'nvim-tree/nvim-web-devicons',
 }

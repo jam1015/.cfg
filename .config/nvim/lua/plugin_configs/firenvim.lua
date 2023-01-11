@@ -1,4 +1,4 @@
-	vim.cmd([[
+vim.cmd([[
 	let g:firenvim_config = {
 				\ 'globalSettings': {
 					\ 'alt': 'all',
@@ -14,7 +14,7 @@
 							\ }
 
 	if exists('g:started_by_firenvim')
-		packadd firenvim
-		set guifont=Consolas:h11
+		"packadd firenvim
+		set guifont=Courier:h11
 	endif
 	]])

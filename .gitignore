@@ -3,3 +3,7 @@
 nvim_chris
 nvim_rayx
 tags
+firenvim
+/.repro/data/nvim/lazy/*
+/nvim_matchup_reprex/.repro/plugins/*
+/.repro/plugins/*

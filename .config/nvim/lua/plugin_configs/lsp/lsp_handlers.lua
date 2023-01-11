@@ -20,14 +20,9 @@ local function lsp_keymaps(bufnr)
 	-- Enable completion triggered by <c-x><c-o>
 	vim.api.nvim_buf_set_option(bufnr, "omnifunc", "v:lua.vim.lsp.omnifunc")
 	local bufopts = { noremap = true, silent = false, buffer = bufnr }
-	vim.keymap.set("n", "<leader>de", vim.diagnostic.open_float, bufopts)
-	vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, bufopts)
-	vim.keymap.set("n", "]d", vim.diagnostic.goto_next, bufopts)
-	vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, bufopts)
-
 	vim.keymap.set("n", "gD", vim.lsp.buf.declaration, bufopts)
 	vim.keymap.set("n", "gd", vim.lsp.buf.definition, bufopts)
-	vim.keymap.set("n", "K", vim.lsp.buf.hover, bufopts)
+	vim.keymap.set("n", "<leader>K", vim.lsp.buf.hover, bufopts)
 	vim.keymap.set("n", "gi", vim.lsp.buf.implementation, bufopts)
 	vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, bufopts)
 	vim.keymap.set("n", "<leader>wa", vim.lsp.buf.add_workspace_folder, bufopts)
@@ -86,7 +81,7 @@ M.setup = function() -- more setup things
 
 	local config = {
 		-- disable virtual text
-		virtual_text = true,
+		virtual_text = false,
 		-- show signs
 		signs = {
 			active = signs,

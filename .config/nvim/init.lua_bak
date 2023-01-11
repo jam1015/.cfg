@@ -1,6 +1,0 @@
-pcall(require, "impatient")
-require('keymaps')
-require('autocommands')
---require('lazy_config')
-require('packer_plugins')
-require('settings')

@@ -63,15 +63,14 @@ cmp.setup({
 	formatting =
 	{
 		fields = { "kind", "abbr", "menu" },
-		format =
-		function(outer_entry, outer_vim_item) --vscode like popup
-			local kind = lspkind.cmp_format({
+		format = function(outer_entry, outer_vim_item) -- should be a function that returns a completed item
+			local kind = lspkind.cmp_format({ -- cmp_format returns a function, and we immediately call it
 				mode = "symbol_text",
-				maxwidth = 100, -- prevent the popup from showing more than provided characters (e.g 50 will not show more than 50 characters)
-				ellipsis_char = '...', -- when popup menu exceed maxwidth, the truncated part would show ellipsis_char instead (must define maxwidth first)
+				maxwidth = 100,
+				ellipsis_char = '...',
 				before = function(entry, vim_item)
 
-					vim_item.menu = ({
+					vim_item.menu = ({ --sets things before
 						buffer = "[Buffer]",
 						nvim_lsp = "[LSP]",
 						luasnip = "[LuaSnip]",
@@ -83,6 +82,7 @@ cmp.setup({
 
 				end
 			})(outer_entry, outer_vim_item)
+
 			local strings = vim.split(kind.kind, "%s", { trimempty = true })
 			kind.kind = " " .. strings[1] .. " "
 			kind.menu = "    (" .. strings[2] .. ")"
@@ -145,4 +145,3 @@ cmp.setup.cmdline(':', {
 		{ name = 'cmdline' }
 	})
 })
-

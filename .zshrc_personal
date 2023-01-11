@@ -1,0 +1,79 @@
+
+
+export PATH="$PATH:/home/jordan/.local/bin"
+export PATH="$PATH:/home/jordan/bin"
+
+
+# ``````````Vim configuration things`````
+export vimrc="$HOME/.config/nvim/init.lua"
+alias vi='nvim'
+alias python='ptpython --vi --dark-bg'
+alias pdflatex="pdflatex -synctex=1"
+alias cb=clipboard
+alias ll='ls -lG'
+alias ls='ls -G'
+alias pd='pandoc'
+
+export BROWSER="/usr/bin/firefox-developer-edition"
+export VISUAL=/usr/bin/nvim #use nvim as default editor
+export VIMCONFIG=~/.config/nvim #vim configuration directory
+export VIMDATA=~/.local/share/nvim # vim data directory (need to learn more about this)
+export NVIM_SWAP="$HOME/.local/state/nvim/swap"
+alias van="man -P 'nvim -c Man! -c set\ nonumber -c set\ norelativenumber'" 
+set -o vi #use vi editing mode in the terminal
+KEYTIMEOUT=1 #get rid of pause after switching modes in vim mode
+
+mkcd () {
+  mkdir "$1" && cd "$1"
+}
+
+
+mkcdp () {
+  mkdir -p "$1" && cd "$1"
+}
+
+#history settings
+SAVEHIST=100000 #stting the history length
+HISTSIZE=100000 #stting the history length
+HISTFILE=~/.zhistory
+bindkey "^R" history-incremental-pattern-search-backward
+
+# setting some useful environment variables
+export todo="$HOME/Documents/diaries/to_do.md"
+export diaries="$HOME/Documents/diaries/diaries.md"
+export tododir="$HOME/Documents/diaries/"
+export thoughts="$HOME/Documents/diaries/thoughts.md"
+export memories="$HOME/Documents/diaries/memories.md"
+
+############ making custom prompt #################
+# perform parameter expansion/command substitution in prompt definition
+setopt PROMPT_SUBST
+vim_ins_mode=">"
+vim_cmd_mode="%%"
+vim_mode=$vim_ins_mode
+
+function zle-keymap-select {
+  vim_mode="${${KEYMAP/vicmd/${vim_cmd_mode}}/(main|viins)/${vim_ins_mode}}"
+  zle reset-prompt
+}
+
+zle -N zle-keymap-select
+
+function zle-line-finish {
+  vim_mode=$vim_ins_mode
+}
+zle -N zle-line-finish
+
+
+
+if [[ "$EUID" = 0 ]]
+then 
+PS1='%B%F{green}su:%3~ ${vim_mode}%f%b '
+else
+PS1='%B%F{magenta}%3~ ${vim_mode}%f%b '
+fi
+
+echo ".zshrc sourced"
+
+
+

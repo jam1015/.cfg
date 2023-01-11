@@ -1,24 +1,26 @@
 local set = vim.opt
---vim.api.nvim_set_hl(0, 'Comment', {cterm = {'italic'}})--, gui= 'italic'})
+
 vim.cmd([[ highlight Comment cterm=italic gui=italic]])
-----Actually setting  the colorscheme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-----vim.g.material_style = "deep ocean"
-set.termguicolors = true
-local colorscheme = "tokyonight-night"
---local haha = os.getenv("DISPLAY")
+
+local colorscheme = "gruvbox"
 if not os.getenv("DISPLAY") then
 	vim.cmd([[colorscheme elflord]])
 else
-	local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
+	local status_ok = nil
+	status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
+	--for i = 1,2 do status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme) end -- have to do it twice for some reason
 	if not status_ok then
-		vim.cmd([[colorscheme habamax]])
+		vim.cmd([[colorscheme slate]])
 	end
 
 end
---
+----Actually setting  the colorscheme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----vim.g.material_style = "deep ocean"
+--set.termguicolors = false
+
 set.modeline = false
 set.completeopt = 'menu,menuone,noselect'
-set.shortmess = "I"
+set.shortmess = "It"
 set.hlsearch = true
 set.undofile = true --persistent undo
 set.gdefault = true
@@ -55,9 +57,11 @@ set.listchars = set.listchars + 'extends:»'
 set.listchars = set.listchars + 'precedes:«'
 set.listchars = set.listchars + 'tab:   '
 set.listchars = set.listchars + 'nbsp:⣿'
-set.clipboard = 'unnamedplus'
+--set.clipboard = 'unnamedplus'
 vim.g.netrw_liststyle = 3
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
 vim.g.c_comment_strings = 1 --can be any value
 set.pumheight = 10
+
+--vim.cmd([[colorscheme gruvbox]])

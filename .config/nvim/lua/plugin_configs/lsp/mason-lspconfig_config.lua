@@ -1,4 +1,4 @@
-local servers = {"vimls", "clangd", "r_language_server", "texlab", "pyright", "jsonls", "cssls", "eslint", "sumneko_lua"}
+local servers = { "tsserver", "vimls", "clangd", "r_language_server", "texlab", "pyright", "jsonls", "cssls", "eslint", "sumneko_lua", "emmet_ls" ,  "html"}
 local settings = {
 	ui = {
 		icons = {
@@ -13,7 +13,7 @@ require("mason").setup(settings)
 
 require("mason-lspconfig").setup({
 	ensure_installed       = servers,
-	automatic_installation = true
+	automatic_installation = true --if we set it up with lspconfig then we install it
 })
 
 
@@ -24,7 +24,7 @@ if not lspconfig_status_ok then
 end
 require("plugin_configs.lsp.lsp_handlers")
 --local cmp_lsp = require("cmp-nvim-lsp")
-local handlers_ok, handlers_obj = pcall(require,"plugin_configs.lsp.lsp_handlers")
+local handlers_ok, handlers_obj = pcall(require, "plugin_configs.lsp.lsp_handlers")
 if not handlers_ok then
 	vim.notify("failed to load handlers")
 	return
@@ -49,7 +49,6 @@ for _, server in ipairs(servers) do
 		opts = vim.tbl_deep_extend("force", conf_opts, opts)
 	end
 
-		--vim.notify("setting up " .. server )
+	--vim.notify("setting up " .. server )
 	lspconfig[server].setup(opts)
 end
-
