@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#
 # script meant to be kept in my dotfiles to recursively link the files to the home directory
 # clone the dotfiles repo to ~
 # then run this script to recursively copy all of the files
