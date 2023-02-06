@@ -17,7 +17,7 @@ set -s set-clipboard on
 
 
 # Fix to ctrl+r in tmux
-bind-key '^R' history-incremental-search-backward
+#bind-key '^R' history-incremental-search-backward
 
 set-option -g update-environment "SSH_AUTH_SOCK SSH_CONNECTION DISPLAY I3SOCK"
 #
