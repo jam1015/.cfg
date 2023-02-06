@@ -9,13 +9,26 @@ return {
 
 			require("plugin_configs.tokyonight")
 		end,
-		event = "VeryLazy"
+		--event = "VeryLazy"
 	}),
 
+	{
+		'pappasam/papercolor-theme-slim'
+	},
 
 	({
-		"ellisonleao/gruvbox.nvim", event = "VeryLazy"
+		"ellisonleao/gruvbox.nvim", --event = "VeryLazy"
 	}),
+	{ "samjwill/nvim-unception",
+		enabled = true,
+		init = function()
+			require("plugin_configs.nvim-unception")
+		end },
+	{
+		"rcarriga/nvim-notify",
+
+		config = function() require("plugin_configs/notify") end,
+	},
 
 	{ 'dstein65/vim-startuptime',
 		enabled = false,
@@ -37,8 +50,7 @@ return {
 		end,
 	}),
 
-	{ "mzlogin/vim-markdown-toc", event = "VeryLazy",
-	},
+	{ "mzlogin/vim-markdown-toc", ft = { "markdown", "md", }, },
 
 	{ "tpope/vim-unimpaired", event = "VeryLazy" },
 	{
@@ -79,10 +91,17 @@ return {
 	{ "tpope/vim-repeat", event = "VeryLazy" },
 	{ "qpkorr/vim-bufkill", event = "VeryLazy" },
 	{ "kevinoid/vim-jsonc", event = "VeryLazy" },
+
 	({
-		"jpalardy/vim-slime", event = "VeryLazy",
+		"jpalardy/vim-slime",
+		--event = "VeryLazy",
+
+		init = function()
+			require("plugin_configs.vim-slime.init")
+		end,
+
 		config = function()
-			require("plugin_configs.vim-slime")
+			require("plugin_configs.vim-slime.config")
 		end,
 	}),
 
@@ -100,7 +119,6 @@ return {
 		ft = { "js", "ts", "html", "htm", "tsx", "jsx", "md" },
 	}),
 
-
 	({ -- run 'call firenvim#install(0)' to perhaps fix issues when it is not running in browser
 		"glacambre/firenvim",
 		build = function()
@@ -115,11 +133,21 @@ return {
 
 	({
 		"jalvesaq/Nvim-R", ft = { "R", "r", "rmd", "Rmd", "RMD" },
+		enabled = false,
 		branch = "stable",
 		config = function()
 			require("plugin_configs.Nvim-R")
 		end,
 	}),
+
+	{
+		"jbyuki/instant.nvim",
+		config = function()
+
+			require("plugin_configs.instant")
+		end
+	},
+	{ "equalsraf/neovim-gui-shim" },
 
 	({ "ibhagwan/fzf-lua", event = "VeryLazy" }),
 

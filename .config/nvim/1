@@ -1,5 +1,5 @@
 local opts = { noremap = true, silent = true }
-local keymap = vim.keymap.set
+local keymap = vim.api.nvim_set_keymap
 
 keymap("n", "<Space>", "", opts)
 vim.g.mapleader = " "
@@ -14,7 +14,7 @@ if os.getenv("TMUX") then
 else
 	--using my favored tmux prefix
 	keymap("n", "<C-a>", "<C-w>", { noremap = false, silent = true })
-	keymap("t", "<C-a>", "<C-\\><C-n><C-w>", { noremap = false, silent = true })
+	keymap("t", "<C-a>", "<C-\\><C-N><C-w>", opts)
 end
 
 --keymap("n", "<C-w>s", "<cmd>colorscheme blue<cr>", opts)
@@ -26,22 +26,11 @@ keymap("n", "<leader>km", ":redir! > nvim_keys.txt<CR>:silent verbose map<CR>:re
 --https://neovim.io/doc/user/api.html and search nvim_create_user_command
 -- and section 40 of the manual
 
---vim.cmd([[
---function! TermSplit() abort
---    if exists('b:term_title')
---        split
---        terminal
---    else
---        split
---    endif
---endfunction
---
---tnoremap <C-w>s <C-\><C-N>:call TermSplit()<CR>
---nnoremap <C-w>s :call TermSplit()<CR>
---]])
 local function term_vsplit()
 	if vim.bo.buftype == 'terminal' then
-		vim.cmd([[vsplit | term]])
+		vim.cmd([[vsplit]])
+		vim.cmd([[term]])
+		--vim.cmd([[<C-\\><C-N>:term<cr>]])
 	else
 		vim.cmd([[vsplit]])
 	end
@@ -49,30 +38,32 @@ end
 
 local function term_hsplit()
 	if vim.bo.buftype == 'terminal' then
-		vim.cmd([[split | term]])
+		vim.cmd([[split]])
+		vim.cmd([[term]])
 	else
 		vim.cmd([[split]])
+		--vim.cmd([[:split<cr>]])
 	end
 end
 
-vim.api.nvim_create_user_command('Tsplit', term_hsplit, { bar = true })
-vim.api.nvim_create_user_command('Tvsplit', term_vsplit, { bar = true })
+vim.api.nvim_create_user_command('Tsplit', term_hsplit, {})
+vim.api.nvim_create_user_command('Tvsplit', term_vsplit, {})
 
-keymap("n", "<C-w>s", term_hsplit, opts)
-keymap("t", "<C-w>s", term_hsplit, opts)
-keymap("n", "<C-w>v", term_vsplit, opts)
-keymap("t", "<C-w>v", term_vsplit, opts)
+keymap("n", "<C-w>s", "<cmd>Tsplit<cr>", opts)
+keymap("t", "<C-w>s", "<C-\\><C-N><C-w><cmd>Tsplit<cr>", opts)
+keymap("n", "<C-w>v",  "<cmd>Tvsplit<cr>", opts)
+keymap("t", "<C-w>v", "<C-\\><C-N><C-w><cmd>Tvsplit<cr>", opts)
+
 
 keymap("t", "<localleader><Esc>", "<C-\\><C-N>", opts)
 keymap("n", "<leader>tt", "<cmd>terminal<cr>i", opts)
 keymap("n", "<leader>tv", "<C-w>v<cmd>terminal<cr>i", opts)
 keymap("n", "<leader>ts", "<C-w>s<cmd>terminal<cr>i", opts)
-keymap("i", "<C-r>", "<C-x><C-a>", opts) --helpw sith pasting from insert moce
-
-
-keymap("n", "<leader>gt", "<cmd>tabprev<cr>", opts)
 
 vim.cmd([[
+"remap omnicomplete
+inoremap <C-j> <C-x><C-o>
+
 " to fix indentation when pasting from regsiter in insert mode
 inoremap <C-r> <C-r><C-p>
 

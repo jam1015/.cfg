@@ -2,31 +2,29 @@ local set = vim.opt
 
 vim.cmd([[ highlight Comment cterm=italic gui=italic]])
 
-local colorscheme = "gruvbox"
+set.bg= "dark"
+local colorscheme = "tokyonight"
 if not os.getenv("DISPLAY") then
 	vim.cmd([[colorscheme elflord]])
 else
 	local status_ok = nil
 	status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
-	--for i = 1,2 do status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme) end -- have to do it twice for some reason
+
 	if not status_ok then
-		vim.cmd([[colorscheme slate]])
+		vim.cmd([[colorscheme blue]])
 	end
 
 end
-----Actually setting  the colorscheme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-----vim.g.material_style = "deep ocean"
---set.termguicolors = false
 
 set.modeline = false
 set.completeopt = 'menu,menuone,noselect'
-set.shortmess = "It"
+set.shortmess = "IF"
 set.hlsearch = true
 set.undofile = true --persistent undo
 set.gdefault = true
 set.nrformats = set.nrformats - 'octal'
 set.formatoptions = set.formatoptions - 'cro'
-local noCRO = vim.api.nvim_create_augroup("no_cro", { clear = true })
+local noCRO = vim.api.nvim_create_augroup("no_cro", { clear = true }) --disables automatic comments
 vim.api.nvim_create_autocmd("FileType", {
 	pattern = "*",
 	command = "setlocal formatoptions-=c formatoptions-=r formatoptions-=o",
@@ -38,7 +36,7 @@ set.display = "lastline"
 set.shiftwidth = 4 --how much indentation from >
 set.softtabstop = 4 --lets us delete by tabs when expandtab is on
 set.tabstop = 4
-set.path = set.path + "**"
+--set.path = set.path + "**"
 set.expandtab = false
 set.smarttab = false
 set.cindent = false
@@ -49,6 +47,8 @@ set.wildignorecase = true
 set.wildignore = '*.git/*,*.tags,tags,*.o,*.class,*.ccls-cache'
 set.ignorecase = true
 set.smartcase = true
+set.splitbelow = true
+set.splitright = true
 set.list = true
 set.listchars = ''
 set.listchars = set.listchars + 'trail:␣'
@@ -57,11 +57,12 @@ set.listchars = set.listchars + 'extends:»'
 set.listchars = set.listchars + 'precedes:«'
 set.listchars = set.listchars + 'tab:   '
 set.listchars = set.listchars + 'nbsp:⣿'
---set.clipboard = 'unnamedplus'
+set.clipboard = 'unnamedplus'
 vim.g.netrw_liststyle = 3
 vim.g.netrw_banner = 0
 vim.g.netrw_liststyle = 3
 vim.g.c_comment_strings = 1 --can be any value
 set.pumheight = 10
+set.shada = "'1000,%"
 
---vim.cmd([[colorscheme gruvbox]])
+

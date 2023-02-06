@@ -14,3 +14,23 @@ cnoreabbrev <expr> telp  getcmdtype() == ":" && getcmdline() == "telp" ? "Telp" 
 cnoreabbrev <expr> belp  getcmdtype() == ":" && getcmdline() == "belp" ? "Belp" : "belp"
 
 cnoreabbrev <expr> olp  getcmdtype() == ":" && getcmdline() == "olp" ? "Olp" : "olp"
+
+
+	command -bar -nargs=? -complete=help HCW execute s:HCW(<q-args>) | bdelete help.txt
+	let s:did_open_help = v:false
+
+	function s:HCW(subject) abort
+	  let mods = 'silent noautocmd keepalt'
+	  if !s:did_open_help
+	    execute mods .. ' help'
+	    execute mods .. ' helpclose'
+	    let s:did_open_help = v:true
+	  endif
+	  if !empty(getcompletion(a:subject, 'help'))
+	    execute mods .. ' edit ' .. &helpfile
+	    set buftype=help
+	  endif
+	  return 'keepjumps help ' .. a:subject
+	endfunction
+
+cnoreabbrev <expr> hh  getcmdtype() == ":" && getcmdline() == "hh" ? "HCW" : "hh"

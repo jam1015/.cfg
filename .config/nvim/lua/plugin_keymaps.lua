@@ -1,6 +1,9 @@
 -- function that returns keymaps based on name of plugin supplied
 M = {}
 function M.pluginKeymaps(plugin, setup_type)
+
+	local keymap = vim.api.nvim_set_keymap
+	local opts = { noremap = true, silent = true }
 	if plugin == "emmet-vim" then
 		if setup_type == "config" then
 			return (function()
@@ -24,8 +27,8 @@ function M.pluginKeymaps(plugin, setup_type)
 			end)
 		elseif setup_type == "init" then
 			return (function()
-			vim.g.user_emmet_leader_key = "<C-B>" --use this to expand emmet
-		end)
+				vim.g.user_emmet_leader_key = "<C-B>" --use this followed by comma to expand emmet
+			end)
 		else
 		end
 
@@ -35,6 +38,19 @@ function M.pluginKeymaps(plugin, setup_type)
 onoremap <leader>ww :HopWord<CR>
 nnoremap <leader>ww :HopWord<CR>
 ]])
+	elseif plugin == "telescope" then
+
+
+		keymap("n", "<leader>tf",
+			"<cmd>lua require'telescope.builtin'.find_files()<cr>",
+			opts)
+
+		keymap("n", "<leader>tg", "<cmd>Telescope live_grep<cr>", opts)
+
+		keymap("n", "<leader>bb", "<cmd>Telescope buffers<cr>", opts)
+		keymap("n", "<leader>bb", "<cmd>lua require'telescope.builtin'.buffers(require('telescope.themes').get_ivy())<cr>", opts)
+		--:lua require'telescope.builtin'.buffers(equire('telescope.themes').get_cursor()<cr>)
+
 	else
 		error("plugin " .. plugin .. " not found\n")
 	end
