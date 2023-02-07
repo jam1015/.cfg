@@ -21,8 +21,8 @@ return {
 					"${3rd}/luassert/library",
 					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
 					[vim.fn.stdpath("config") .. "/lua"] = true,
-				}
-				checkThirdParty = true,
+				},
+				checkThirdParty = false,
 				--library = {
 				--	  -- Make the server aware of Neovim runtime files
 				--},
