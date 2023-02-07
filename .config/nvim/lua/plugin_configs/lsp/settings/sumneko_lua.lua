@@ -1,4 +1,5 @@
 local runtime_path = vim.split(package.path, ';')
+print(runtime_path)
 table.insert(runtime_path, 'lua/?.lua')
 table.insert(runtime_path, 'lua/?/init.lua')
 
@@ -16,12 +17,14 @@ return {
 				globals = { "vim" },
 			},
 			workspace = {
-				library = vim.api.nvim_get_runtime_file('', true),
-				checkThirdParty = false,
+				library = { vim.api.nvim_get_runtime_file('', true),
+					"${3rd}/luassert/library",
+					[vim.fn.expand("$VIMRUNTIME/lua")] = true,
+					[vim.fn.stdpath("config") .. "/lua"] = true,
+				}
+				checkThirdParty = true,
 				--library = {
 				--	  -- Make the server aware of Neovim runtime files
-				--	[vim.fn.expand("$VIMRUNTIME/lua")] = true,
-				--	[vim.fn.stdpath("config") .. "/lua"] = true,
 				--},
 			},
 			telemetry = {

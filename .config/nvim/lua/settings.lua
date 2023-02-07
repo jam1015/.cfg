@@ -3,7 +3,7 @@ local set = vim.opt
 vim.cmd([[ highlight Comment cterm=italic gui=italic]])
 
 set.bg= "dark"
-local colorscheme = "tokyonight"
+local colorscheme = "TokyoNight"
 if not os.getenv("DISPLAY") then
 	vim.cmd([[colorscheme elflord]])
 else
@@ -16,7 +16,7 @@ else
 
 end
 
-set.modeline = false
+set.modeline = false 
 set.completeopt = 'menu,menuone,noselect'
 set.shortmess = "IF"
 set.hlsearch = true
@@ -30,7 +30,7 @@ vim.api.nvim_create_autocmd("FileType", {
 	command = "setlocal formatoptions-=c formatoptions-=r formatoptions-=o",
 	group = noCRO,
 })
-set.history = 2000
+set.history = 2000 
 set.scrolloff = 3 -- show a few lines around cursor
 set.display = "lastline"
 set.shiftwidth = 4 --how much indentation from >

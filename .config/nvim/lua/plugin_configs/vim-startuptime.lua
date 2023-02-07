@@ -1,1 +1,1 @@
-vim.g.startuptime_event_width = 0
+--vim.g.startuptime_event_width = 0
