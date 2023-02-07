@@ -1,4 +1,5 @@
-local servers = { "tsserver", "vimls", "clangd", "r_language_server", "texlab", "pyright", "jsonls", "cssls", "eslint", "emmet_ls" ,  "html","sumneko_lua"}
+local servers = { "tsserver", "vimls", "clangd", "r_language_server", "texlab", "pyright", "jsonls", "cssls", "eslint",
+	"emmet_ls", "html", "sumneko_lua" }
 local settings = {
 	ui = {
 		icons = {
@@ -9,7 +10,7 @@ local settings = {
 	}
 }
 
-require("mason").setup(settings) 
+require("mason").setup(settings)
 
 require("mason-lspconfig").setup({
 	ensure_installed       = servers,
@@ -34,7 +35,11 @@ handlers_obj.buf_keymaps()
 
 local opts = {}
 for _, server in ipairs(servers) do
-
+	if server == "sumneko_lua" then
+		require("neodev").setup({
+			-- add any options here, or leave empty to use the default settings
+		})
+	end
 	opts = {
 		on_attach = handlers_obj.on_attach,
 		capabilities = handlers_obj.capabilities,

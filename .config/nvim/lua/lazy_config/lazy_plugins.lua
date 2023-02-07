@@ -6,7 +6,6 @@ return {
 		"folke/tokyonight.nvim",
 		branch = "main",
 		config = function()
-
 			require("plugin_configs.tokyonight")
 		end,
 		--event = "VeryLazy"
@@ -30,13 +29,13 @@ return {
 		config = function() require("plugin_configs/notify") end,
 	},
 
-	{ 'dstein65/vim-startuptime',
-		enabled = false,
+	{ 'dstein64/vim-startuptime',
+		enabled = true,
+		event = "VeryLazy",
 		config = function() require("plugin_configs/vim-startuptime") end },
 	("nvim-lua/plenary.nvim"),
 	("nvim-lua/popup.nvim"),
 	({ "ethanholz/nvim-lastplace", config = function() require("plugin_configs.nvim-lastplace") end }),
-
 	{ "airblade/vim-rooter", config = function()
 		require("plugin_configs.vim-rooter")
 	end },
@@ -52,7 +51,7 @@ return {
 
 	{ "mzlogin/vim-markdown-toc", ft = { "markdown", "md", }, },
 
-	{ "tpope/vim-unimpaired", event = "VeryLazy" },
+	{ "tpope/vim-unimpaired",     event = "VeryLazy" },
 	{
 		"windwp/nvim-autopairs",
 		enabled = false,
@@ -88,9 +87,9 @@ return {
 	}),
 
 	{ "bronson/vim-visual-star-search", event = "VeryLazy" },
-	{ "tpope/vim-repeat", event = "VeryLazy" },
-	{ "qpkorr/vim-bufkill", event = "VeryLazy" },
-	{ "kevinoid/vim-jsonc", event = "VeryLazy" },
+	{ "tpope/vim-repeat",               event = "VeryLazy" },
+	{ "qpkorr/vim-bufkill",             event = "VeryLazy" },
+	{ "kevinoid/vim-jsonc",             event = "VeryLazy" },
 
 	({
 		"jpalardy/vim-slime",
@@ -143,7 +142,6 @@ return {
 	{
 		"jbyuki/instant.nvim",
 		config = function()
-
 			require("plugin_configs.instant")
 		end
 	},
@@ -175,19 +173,18 @@ return {
 	({
 		"ggandor/leap.nvim", event = "VeryLazy",
 		config = function()
-
 			require('plugin_configs.leap')
 		end,
 	}),
 
-	{ "andymass/vim-matchup", event = { "BufNewFile", "BufRead" }, },
-	{ "numToStr/Comment.nvim", config = function() require("plugin_configs.Comment") end, event = "VeryLazy" },
+	{ "andymass/vim-matchup",                        event = { "BufNewFile", "BufRead" }, },
+	{ "numToStr/Comment.nvim",                       config = function() require("plugin_configs.Comment") end, event = "VeryLazy" },
 	{ "JoosepAlviste/nvim-ts-context-commentstring", event = "VeryLazy" },
 
 	({
 		"nvim-treesitter/nvim-treesitter", --event = "VeryLazy",
 		config = vim.schedule(function()
-			require("plugin_configs.nvim-treesitter") 
+			require("plugin_configs.nvim-treesitter")
 		end),
 	}),
 
@@ -201,7 +198,6 @@ return {
 
 
 	{ "lifecrisis/vim-difforig", event = "VeryLazy" },
-
 	{ "lewis6991/gitsigns.nvim", config = function() require("plugin_configs.gitsigns") end, lazy = true },
 	{
 		'nvim-tree/nvim-tree.lua', event = "VeryLazy",
@@ -220,7 +216,7 @@ return {
 		config = function() require("plugin_configs.bufferline") end
 	},
 
-	'nvim-tree/nvim-web-devicons',
+
 
 	{ "neovim/nvim-lspconfig",
 		enabled = true,
@@ -233,6 +229,7 @@ return {
 		dependencies = { "onsails/lspkind.nvim",
 			"williamboman/mason.nvim",
 			"williamboman/mason-lspconfig.nvim",
+			"folke/neodev.nvim"
 
 		}, -- "RRethy/vim-illuminate" },
 		config = function()
@@ -248,9 +245,9 @@ return {
 			{ "onsails/lspkind.nvim", event = "VeryLazy" },
 			{ "hrsh7th/cmp-nvim-lsp", event = "VeryLazy" },
 			{ "hrsh7th/cmp-nvim-lua", event = "VeryLazy" },
-			{ "hrsh7th/cmp-buffer", event = "VeryLazy" },
-			{ "hrsh7th/cmp-path", event = "VeryLazy" },
-			{ "hrsh7th/cmp-cmdline", event = "VeryLazy" },
+			{ "hrsh7th/cmp-buffer",   event = "VeryLazy" },
+			{ "hrsh7th/cmp-path",     event = "VeryLazy" },
+			{ "hrsh7th/cmp-cmdline",  event = "VeryLazy" },
 			{
 				"L3MON4D3/LuaSnip", -- tag = "v<CurrentMajor>.*",
 				dependencies = { "rafamadriz/friendly-snippets" },
