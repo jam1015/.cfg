@@ -93,11 +93,12 @@ return {
 	{ "kevinoid/vim-jsonc", event = "VeryLazy" },
 
 	({
-		"jpalardy/vim-slime",
+		--"jam1015/vim-slime",
 		--event = "VeryLazy",
+		dir = "/home/jordan/Documents/vim-slime",
 
 		init = function()
-			require("plugin_configs.vim-slime.init")
+			require("plugin_configs.vim-slime.initi")
 		end,
 
 		config = function()
@@ -110,7 +111,7 @@ return {
 		"mattn/emmet-vim", event = "VeryLazy",
 		lazy = true,
 		init = function()
-			require("plugin_configs.emmet-vim.init")
+			require("plugin_configs.emmet-vim.initi")
 		end,
 
 		config = function()

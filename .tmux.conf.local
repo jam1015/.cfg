@@ -17,7 +17,7 @@ set -s set-clipboard on
 
 
 # Fix to ctrl+r in tmux
-bind-key '^R' history-incremental-search-backward
+#bind-key '^R' history-incremental-search-backward
 
 set-option -g update-environment "SSH_AUTH_SOCK SSH_CONNECTION DISPLAY I3SOCK"
 #
@@ -69,6 +69,7 @@ set -g @plugin 'maxrodrigo/tmux-nordvpn'
 
 #for vim
 
+
 set -g @resurrect-strategy-vim 'session'
 
 # -- tpm -----------------------------------------------------------------------
@@ -86,4 +87,6 @@ set -g @plugin 'tmux-plugins/tmux-continuum'
 if-shell "test -f /usr/share/tmux-plugin-manager/tpm" "run /usr/share/tmux-plugin-manager/tpm"
 if-shell "test -f ~/.tmux/plugins/tpm/tpm" "run ~/.tmux/plugins/tpm/tpm"
 if-shell "test -f ~/.tmux/tmux-nordvpn/nordvpn.tmux" "run ~/.tmux/tmux-nordvpn/nordvpn.tmux"
-## themes
+## other tmux
+
+#display-message -d 10000 "haha"
