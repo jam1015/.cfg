@@ -1,4 +1,4 @@
-local servers = { "tsserver", "vimls", "clangd", "r_language_server", "texlab", "pyright", "jsonls", "cssls", "eslint", "sumneko_lua", "emmet_ls" ,  "html"}
+local servers = { "tsserver", "vimls", "clangd", "r_language_server", "texlab", "pyright", "jsonls", "cssls", "eslint", "emmet_ls" ,  "html","sumneko_lua"}
 local settings = {
 	ui = {
 		icons = {
@@ -9,7 +9,7 @@ local settings = {
 	}
 }
 
-require("mason").setup(settings)
+require("mason").setup(settings) 
 
 require("mason-lspconfig").setup({
 	ensure_installed       = servers,

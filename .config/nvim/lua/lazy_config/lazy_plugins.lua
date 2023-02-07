@@ -187,7 +187,7 @@ return {
 	({
 		"nvim-treesitter/nvim-treesitter", --event = "VeryLazy",
 		config = vim.schedule(function()
-			require("plugin_configs.nvim-treesitter")
+			require("plugin_configs.nvim-treesitter") 
 		end),
 	}),
 

@@ -1,11 +1,11 @@
 if os.getenv("TMUX") then
 
-	vim.g.slime_target = "tmux"
+	vim.g.slime_target = "tmux" 
 
 	vim.g.slime_default_config = { socket_name = "default", target_pane = "{next}" }
 else
 
-	vim.g.slime_target = "neovim"
+	vim.g.slime_target = "neovim" 
 
 --	local slime_autocmds = vim.api.nvim_create_augroup("slime_autocomds", { clear = true })
 --	vim.api.nvim_create_autocmd("TermOpen", {
