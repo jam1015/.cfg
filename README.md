@@ -7,4 +7,4 @@
 - Many other things
 - script to symlink files when migrating to new systems
 
-
+See LICESNSE.txt for license.
