@@ -10,6 +10,6 @@ require("nvim-surround").setup({
 		visual = "S",
 		visual_line = "gS",
 		delete = "<leader>ds",
-		change = "cs",
+		change = "<leader>cs",
 	},
 })

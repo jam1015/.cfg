@@ -1,11 +1,11 @@
 local api = vim.api
 
 -- Highlight on yank
-local aesthetics = api.nvim_create_augroup("aesthetic_settings", { clear = true })
-api.nvim_create_autocmd("TextYankPost", {
-	command = "silent! lua vim.highlight.on_yank({higroup = \"Visual\", timeout = 200})",
-	group = aesthetics,
-})
+--local aesthetics = api.nvim_create_augroup("aesthetic_settings", { clear = true })
+--api.nvim_create_autocmd("TextYankPost", {
+--	command = "silent! lua vim.highlight.on_yank({higroup = \"Visual\", timeout = 200})",
+--	group = aesthetics,
+--})
 
 
 
@@ -23,7 +23,14 @@ api.nvim_create_autocmd("SwapExists", {
 	group = concurrent,
 })
 
-
+vim.api.nvim_create_autocmd({ "FileChangedShellPost", "BufEnter", "CursorHold", "CursorHoldI", "FocusGained" }, {
+	command = "if mode() != 'c' | checktime | endif",
+	pattern = { "*" },
+})
+vim.cmd([[
+ autocmd FileChangedShellPost *
+        \ echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None
+		]])
 -- terminal related --------------------
 local term_autocmds = api.nvim_create_augroup("term_autocomds", { clear = true })
 
@@ -39,19 +46,15 @@ api.nvim_create_autocmd("TermOpen", {
 })
 
 
-
 api.nvim_create_autocmd("TermClose", {
 	pattern = "*",
-	command = "if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif",
+	command = "if !v:event.status | exe 'Bdelete! '..expand('<abuf>') | endif",
 	group = term_autocmds
 })
 
 api.nvim_create_autocmd("TermOpen", {
 	pattern = "*",
-	--command = "if !v:event.status | exe 'bdelete! '..expand('<abuf>') | endif",
-	callback = function()
-		vim.g.recent_terminal = vim.b.terminal_job_id
-	end,
+	command = "",
 	group = term_autocmds
 })
 --api.nvim_create_autocmd({

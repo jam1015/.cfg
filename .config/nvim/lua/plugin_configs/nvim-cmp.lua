@@ -31,9 +31,8 @@ cmp.setup({
 			require('luasnip').lsp_expand(args.body) -- For `luasnip` users.
 		end,
 	},
-
 	mapping = {
-		['<C-b>'] = cmp.mapping.scroll_docs(-4),
+		['<C-b>'] = cmp.mapping.scroll_docs( -4),
 		['<C-f>'] = cmp.mapping.scroll_docs(4),
 		['<C-Space>'] = cmp.mapping.complete(),
 		['<C-e>'] = cmp.mapping.abort(),
@@ -53,8 +52,8 @@ cmp.setup({
 		["<S-Tab>"] = cmp.mapping(function(fallback)
 			if cmp.visible() then
 				cmp.select_prev_item()
-			elseif luasnip.jumpable(-1) then
-				luasnip.jump(-1)
+			elseif luasnip.jumpable( -1) then
+				luasnip.jump( -1)
 			else
 				fallback()
 			end
@@ -64,24 +63,23 @@ cmp.setup({
 	{
 		fields = { "kind", "abbr", "menu" },
 		format = function(outer_entry, outer_vim_item) -- should be a function that returns a completed item
-			local kind = lspkind.cmp_format({ -- cmp_format returns a function, and we immediately call it
-				mode = "symbol_text",
-				maxwidth = 100,
-				ellipsis_char = '...',
-				before = function(entry, vim_item)
+			local kind = lspkind.cmp_format({
+					-- cmp_format returns a function, and we immediately call it
+					mode = "symbol_text",
+					maxwidth = 100,
+					ellipsis_char = '...',
+					before = function(entry, vim_item)
+						vim_item.menu = ({ --sets things before
+								buffer = "[Buffer]",
+								nvim_lsp = "[LSP]",
+								luasnip = "[LuaSnip]",
+								nvim_lua = "[Lua]",
+								latex_symbols = "[Latex]",
+							})[entry.source.name]
 
-					vim_item.menu = ({ --sets things before
-						buffer = "[Buffer]",
-						nvim_lsp = "[LSP]",
-						luasnip = "[LuaSnip]",
-						nvim_lua = "[Lua]",
-						latex_symbols = "[Latex]",
-					})[entry.source.name]
-
-					return vim_item
-
-				end
-			})(outer_entry, outer_vim_item)
+						return vim_item
+					end
+				})(outer_entry, outer_vim_item)
 
 			local strings = vim.split(kind.kind, "%s", { trimempty = true })
 			kind.kind = " " .. strings[1] .. " "
@@ -91,7 +89,6 @@ cmp.setup({
 		end,
 
 	},
-
 	sources = cmp.config.sources({
 		{ name = "nvim_lsp" },
 		{ name = "nvim_lua" },
@@ -99,7 +96,6 @@ cmp.setup({
 		{ name = "buffer" },
 		{ name = "path" }, --
 	}),
-
 	confirm_opts = {
 		behavior = cmp.ConfirmBehavior.Replace,
 		select = false,
@@ -145,3 +141,20 @@ cmp.setup.cmdline(':', {
 		{ name = 'cmdline' }
 	})
 })
+
+
+local cmp_grp = vim.api.nvim_create_augroup("cmp_autocmds", { clear = true }) --similar setup in lazy config
+vim.api.nvim_create_autocmd("FileType", {
+	pattern = "*.lisp",
+	callback = function()
+--require('cmp').setup.buffer { enabled = false }
+		require 'cmp'.setup.buffer {
+			completion = {
+				autocomplete = false
+			}
+		}
+	end,
+	group = cmp_grp,
+})
+
+require("plugin_keymaps").pluginKeymaps("nvim-cmp")

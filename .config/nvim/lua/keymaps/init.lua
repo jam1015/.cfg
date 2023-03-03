@@ -9,14 +9,15 @@ vim.g.mapllocaleader = "\\"
 keymap("n", "<leader>ll", ":nohlsearch<CR>", opts)
 
 if os.getenv("TMUX") then
-
-	keymap("n", "<leader>aa", "<C-w>", opts)
+	keymap("t", "<C-w>", "<C-\\><C-n><C-w>", { noremap = false, silent = true })
 else
 	--using my favored tmux prefix
-	keymap("n", "<C-a>", "<C-w>", { noremap = false, silent = true })
-	keymap("t", "<C-a>", "<C-\\><C-n><C-w>", { noremap = false, silent = true })
+	keymap("n", "<C-a>", "<C-w>", { remap = true, silent = true })
+	keymap("t", "<C-a>", "<C-\\><C-n><C-w>", { remap = true, silent = true })
 end
 
+keymap("i", "<C-j>", "<C-x><C-o>", { remap = false, silent = true }) -- activate omni completeion
+keymap("t", "<C-o>", "<C-\\><C-o>", { remap = false, silent = true }) --issue single terminal command
 --keymap("n", "<C-w>s", "<cmd>colorscheme blue<cr>", opts)
 
 keymap("n", "<leader>km", ":redir! > nvim_keys.txt<CR>:silent verbose map<CR>:redir END<CR>:edit nvim_keys.txt<CR>"
@@ -26,19 +27,6 @@ keymap("n", "<leader>km", ":redir! > nvim_keys.txt<CR>:silent verbose map<CR>:re
 --https://neovim.io/doc/user/api.html and search nvim_create_user_command
 -- and section 40 of the manual
 
---vim.cmd([[
---function! TermSplit() abort
---    if exists('b:term_title')
---        split
---        terminal
---    else
---        split
---    endif
---endfunction
---
---tnoremap <C-w>s <C-\><C-N>:call TermSplit()<CR>
---nnoremap <C-w>s :call TermSplit()<CR>
---]])
 local function term_vsplit()
 	if vim.bo.buftype == 'terminal' then
 		vim.cmd([[vsplit | term]])
@@ -67,17 +55,18 @@ keymap("t", "<localleader><Esc>", "<C-\\><C-N>", opts)
 keymap("n", "<leader>tt", "<cmd>terminal<cr>i", opts)
 keymap("n", "<leader>tv", "<C-w>v<cmd>terminal<cr>i", opts)
 keymap("n", "<leader>ts", "<C-w>s<cmd>terminal<cr>i", opts)
-keymap("i", "<C-r>", "<C-x><C-a>", opts) --helpw sith pasting from insert moce
+keymap("i", "<C-r>", "<C-r><C-p>", opts) --helpw sith pasting from insert moce
+keymap("c", "%%", "getcmdtype() == ':' ? expand('%:h').'/' : '%%'", {expr = true, remap=false})
 
+keymap("n", "<leader>gt", "<cmd>tabprev<cr>", { remap = true, silent = true, expr = true })
 
-keymap("n", "<leader>gt", "<cmd>tabprev<cr>", opts)
+require("keymaps.directional_help")
+
 
 vim.cmd([[
-" to fix indentation when pasting from regsiter in insert mode
-inoremap <C-r> <C-r><C-p>
 
-"use %% to get relative filepath of file to vim base directory
-cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
+
 
 " changing size
 if bufwinnr(1)
@@ -95,22 +84,22 @@ cnoreabbr <expr> %% fnameescape(expand('%:p'))
 " new windows
 
 " in insert mode control u deletes to beginning of line, this makes it part of a new change
-inoremap <C-U> <C-G>u<C-U> 
+inoremap <C-U> <C-G>u<C-U>
 
 
 ""add type these after a search to instantly move text
 ""move to text
-"cnoremap $t <CR>:t''<CR>  
-""move text to 
+"cnoremap $t <CR>:t''<CR>
+""move text to
 "cnoremap $m <CR>:m''<CR>
 ""delete
 "cnoremap $d <CR>:d<CR>``
 "
 "" makes count up and down motions actual lines if a number is given
-"nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
+"nnoremap <expr> k (v:count == -1 ? 'gk' : 'k')
 "nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
 "
-""force visual motion     
+""force visual motion
 "nnoremap dj dvj
 "nnoremap dk dvk
 "nnoremap 0 ^

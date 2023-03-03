@@ -1,15 +1,15 @@
 local servers = { "tsserver", "vimls", "clangd", "r_language_server", "texlab", "pyright", "jsonls", "cssls", "eslint",
-	"emmet_ls", "html", "sumneko_lua" }
-local settings = {
-	ui = {
-		icons = {
-			package_installed = "✓",
-			package_pending = "➜",
-			package_uninstalled = "✗"
-		}
-	}
-}
+	"emmet_ls", "html", "lua_ls", "julials" }
 
+--local mason_settings_ok, settings_obj = pcall(require,"plugin_configs.lsp.lsp_handlerss")
+local settings_obj = require("plugin_configs.lsp.mason_settings")
+--if not mason_settings_ok then
+--	vim.notify("failed to load mason settings\n")
+--	vim.cmd([[colorscheme delek]])
+--	return
+--end
+
+local settings = settings_obj.settings()
 require("mason").setup(settings)
 
 require("mason-lspconfig").setup({
@@ -23,23 +23,18 @@ if not lspconfig_status_ok then
 	vim.notify("failed to load lspconfig")
 	return
 end
-require("plugin_configs.lsp.lsp_handlers")
 --local cmp_lsp = require("cmp-nvim-lsp")
 local handlers_ok, handlers_obj = pcall(require, "plugin_configs.lsp.lsp_handlers")
 if not handlers_ok then
-	vim.notify("failed to load handlers")
+	vim.notify("failed to load handlers/n")
+	vim.cmd([[colorscheme delek]])
 	return
 end
 
 handlers_obj.buf_keymaps()
-
+--
 local opts = {}
 for _, server in ipairs(servers) do
-	if server == "sumneko_lua" then
---		require("neodev").setup({
---			-- add any options here, or leave empty to use the default settings
---		})
-	end
 	opts = {
 		on_attach = handlers_obj.on_attach,
 		capabilities = handlers_obj.capabilities,
@@ -47,13 +42,13 @@ for _, server in ipairs(servers) do
 	}
 
 	server = vim.split(server, "@")[1]
-
-	--vim.notify("trying to set up " .. server )
+--
+--	--vim.notify("trying to set up " .. server )
 	local require_ok, conf_opts = pcall(require, "plugin_configs.lsp.settings." .. server)
 	if require_ok then
 		opts = vim.tbl_deep_extend("force", conf_opts, opts)
 	end
-
-	--vim.notify("setting up " .. server )
+--
+--	--vim.notify("setting up " .. server )
 	lspconfig[server].setup(opts)
 end

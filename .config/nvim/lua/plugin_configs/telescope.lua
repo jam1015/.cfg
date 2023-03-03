@@ -12,6 +12,8 @@ telescope.setup {
 	defaults = {
 		-- Default configuration for telescope goes here:
 		-- config_key = value,
+		dynamic_preview_title = true,
+
 		mappings = {
 			i = {
 				["<C-n>"] = actions.cycle_history_next,
@@ -133,7 +135,6 @@ telescope.setup {
 telescope.load_extension('file_browser')
 
 require("plugin_keymaps").pluginKeymaps("telescope", "config")
-
 
 --telescope.load_extension('fzf')
 --telescope.load_extension('arecibo')
