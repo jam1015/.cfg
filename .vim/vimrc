@@ -10,6 +10,10 @@ endif "for having nvim
 " setting other settings
 
 "---custom keybindings go here--------
+
+syntax on
+set incsearch
+colorscheme habamax
 nnoremap <Space> <Nop>
 let mapleader="\\"
 let maplocalleader=" "
@@ -102,8 +106,9 @@ map <leader>lv :VimtexView<cr>
 highlight Comment cterm=italic
 
 "Actually setting  the colorscheme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-colorscheme default
-"set termguicolors
+colorscheme habamax
+
+set termguicolors
 
 
 set hlsearch
