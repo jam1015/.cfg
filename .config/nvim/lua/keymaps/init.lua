@@ -17,7 +17,6 @@ else
 end
 
 keymap("i", "<C-j>", "<C-x><C-o>", { remap = false, silent = true }) -- activate omni completeion
-keymap("t", "<C-o>", "<C-\\><C-o>", { remap = false, silent = true }) --issue single terminal command
 --keymap("n", "<C-w>s", "<cmd>colorscheme blue<cr>", opts)
 
 keymap("n", "<leader>km", ":redir! > nvim_keys.txt<CR>:silent verbose map<CR>:redir END<CR>:edit nvim_keys.txt<CR>"
@@ -51,6 +50,8 @@ keymap("t", "<C-w>s", term_hsplit, opts)
 keymap("n", "<C-w>v", term_vsplit, opts)
 keymap("t", "<C-w>v", term_vsplit, opts)
 
+
+keymap("t", "<C-o>", "<C-\\><C-o>", { remap = false, silent = true }) --issue single terminal command
 keymap("t", "<localleader><Esc>", "<C-\\><C-N>", opts)
 keymap("n", "<leader>tt", "<cmd>terminal<cr>i", opts)
 keymap("n", "<leader>tv", "<C-w>v<cmd>terminal<cr>i", opts)

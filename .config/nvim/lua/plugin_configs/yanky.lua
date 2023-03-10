@@ -47,6 +47,7 @@ require("yanky").setup({
 			}
 		},
 	},
+
 	system_clipboard = {
 		sync_with_ring = true,
 	},
@@ -54,8 +55,8 @@ require("yanky").setup({
 		on_put = true,
 		on_yank = true,
 		timer = 200,
-		yank_higroup = "Visual",
-		put_higroup = "Visual",
+	--	yank_higroup = "Visual",
+	--	put_higroup = "Visual",
 	},
 	preserve_cursor_position = {
 		enabled = true,

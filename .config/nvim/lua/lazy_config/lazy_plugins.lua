@@ -1,4 +1,13 @@
 return {
+	{
+
+		'ludovicchabant/vim-gutentags',
+
+		config = function()
+			require("plugin_configs.vim-gutentags")
+
+		end
+	},
 	{ "lukas-reineke/indent-blankline.nvim", config = function() require("plugin_configs.indent-blankline") end,
 		event = "VeryLazy" },
 	"overcache/NeoSolarized",
@@ -26,7 +35,7 @@ return {
 	{
 		"rcarriga/nvim-notify",
 
-		config = function() require("plugin_configs/notify") end,
+		config = function() require("plugin_configs.notify") end,
 	},
 
 	{ 'dstein64/vim-startuptime',
@@ -53,18 +62,18 @@ return {
 		"vlime/vlime", --install quicklisp on your system when you install this; do it manually rather than through a package manager, or find where the package manager installs the proper lisp script
 		dependencies = "kovisoft/paredit",
 		config = function()
-
 			require("plugin_configs.vlime")
+			vim.cmd([[]])
 		end
 	},
 
 	{ 'famiu/bufdelete.nvim',     config = function() require("plugin_keymaps").pluginKeymaps("bufdelete.nvim") end },
 	{ "mzlogin/vim-markdown-toc", ft = { "markdown", "md", }, },
-	{ -- "jam1015/yanky.nvim",
+	{ "jam1015/yanky.nvim",
 		--branch = "autocmd",
 		dependencies = { "kkharji/sqlite.lua" },
 
-		dir = "/home/jordan/Documents/yanky.nvim",
+		--dir = "/home/jordan/Documents/yanky.nvim",
 		config = function()
 			require("plugin_configs.yanky")
 		end
