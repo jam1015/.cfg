@@ -16,3 +16,6 @@ firenvim
 .config/libreoffice/*
 .config/libreoffice
 .vim/pack/minpac/*
+.emacs.*/elpa/*
+.emacs.*/elpa
+.config/.repro
