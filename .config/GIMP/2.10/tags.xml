@@ -1366,6 +1366,30 @@
   <resource identifier="all-the-icons" checksum="(null)">
   </resource>
 
+  <resource identifier="Anonymous Pro" checksum="(null)">
+  </resource>
+
+  <resource identifier="Anonymous Pro Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Anonymous Pro Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Anonymous Pro Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Anonymous Pro Minus" checksum="(null)">
+  </resource>
+
+  <resource identifier="Anonymous Pro Minus Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Anonymous Pro Minus Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Anonymous Pro Minus Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="Arabic Newspaper" checksum="(null)">
   </resource>
 
@@ -1633,34 +1657,121 @@
   <resource identifier="Cascadia Mono Ultra-Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Clean" checksum="(null)">
+  <resource identifier="Clean (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="Clean Bold" checksum="(null)">
+  <resource identifier="Clean (OTB) Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Clean Italic" checksum="(null)">
+  <resource identifier="Clean (OTB) Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="ClearlyU" checksum="(null)">
+  <resource identifier="ClearlyU Alternate Glyphs (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="ClearlyU Alternate Glyphs" checksum="(null)">
+  <resource identifier="ClearlyU Arabic Extra (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="ClearlyU Arabic Extra" checksum="(null)">
+  <resource identifier="ClearlyU Devanagari (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="ClearlyU Devanagari" checksum="(null)">
+  <resource identifier="ClearlyU Devangari Extra (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="ClearlyU Devangari Extra" checksum="(null)">
+  <resource identifier="ClearlyU Ligature (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="ClearlyU Ligature" checksum="(null)">
+  <resource identifier="ClearlyU (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="ClearlyU PUA" checksum="(null)">
+  <resource identifier="ClearlyU PUA (OTB)" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Bright Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Bright Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Bright Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Bright Semi-Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Classical Serif Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Concrete Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Concrete Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Concrete Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Concrete Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Sans Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Sans Serif Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Sans Serif Demi Condensed, Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Sans Serif Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Sans Serif Medium Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Serif Extra Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Serif Extra Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Serif Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Serif Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Serif Upright Italic, Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Ultra-Light Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Variable Width Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="CMU Typewriter Text Variable Width Medium Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Courier Prime" checksum="(null)">
@@ -1726,6 +1837,72 @@
   <resource identifier="DEC Terminal Bold" checksum="(null)">
   </resource>
 
+  <resource identifier="DejaVu Math TeX Gyre" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono Bold Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Mono Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Sans Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold Italic Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Italic Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="DejaVu Serif Semi-Condensed" checksum="(null)">
+  </resource>
+
   <resource identifier="East Syriac Adiabene" checksum="(null)">
   </resource>
 
@@ -1756,7 +1933,19 @@
   <resource identifier="Estrangelo TurAbdin" checksum="(null)">
   </resource>
 
-  <resource identifier="Fangsong ti" checksum="(null)">
+  <resource identifier="Fangsong ti (OTB)" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fantasque Sans Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fantasque Sans Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fantasque Sans Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fantasque Sans Mono Italic" checksum="(null)">
   </resource>
 
   <resource identifier="file-icons" checksum="(null)">
@@ -1783,31 +1972,37 @@
   <resource identifier="Fixed" checksum="(null)">
   </resource>
 
-  <resource identifier="Fixed" checksum="(null)">
-  </resource>
-
-  <resource identifier="Fixed" checksum="(null)">
-  </resource>
-
   <resource identifier="Fixed Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Fixed Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Fixed Bold Semi-Condensed" checksum="(null)">
-  </resource>
-
   <resource identifier="Fixed Medium Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Fixed Oblique" checksum="(null)">
+  <resource identifier="Fixed (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="Fixed Oblique Semi-Condensed" checksum="(null)">
+  <resource identifier="Fixed (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="Fixed Semi-Condensed" checksum="(null)">
+  <resource identifier="Fixed (OTB)" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fixed (OTB) Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fixed (OTB) Bold Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fixed (OTB) Oblique" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fixed (OTB) Oblique Semi-Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="Fixed (OTB) Semi-Condensed" checksum="(null)">
   </resource>
 
   <resource identifier="FontAwesome" checksum="(null)">
@@ -1882,7 +2077,7 @@
   <resource identifier="Goha-Tibeb Zemen Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Gothic" checksum="(null)">
+  <resource identifier="Gothic (OTB)" checksum="(null)">
   </resource>
 
   <resource identifier="Hermit" checksum="(null)">
@@ -1912,13 +2107,367 @@
   <resource identifier="Hurmit Nerd Font Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Hurmit Nerd Font Mono Bold" checksum="(null)">
-  </resource>
-
-  <resource identifier="Hurmit Nerd Font Mono Light" checksum="(null)">
-  </resource>
-
   <resource identifier="Hurmit Nerd Font Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Mono weight=450 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Arabic weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Bold Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Light Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Medium Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Medium Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Semi-Bold Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Semi-Bold Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Thin Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Thin Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Ultra-Light Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, Ultra-Light Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, weight=450 Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Condensed, weight=450 Italic Condensed" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Devanagari weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Hebrew weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans JP weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans KR weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Looped weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thai weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Sans weight=450 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Medium" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Medium Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Semi-Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Thin" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Thin Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Ultra-Light" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif Ultra-Light Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif weight=450" checksum="(null)">
+  </resource>
+
+  <resource identifier="IBM Plex Serif weight=450 Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Input Mono" checksum="(null)">
@@ -3166,13 +3715,25 @@
   <resource identifier="Material Icons" checksum="(null)">
   </resource>
 
+  <resource identifier="Menlo for Powerline" checksum="(null)">
+  </resource>
+
+  <resource identifier="Menlo for Powerline Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Menlo for Powerline Bold Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Menlo for Powerline Italic" checksum="(null)">
+  </resource>
+
   <resource identifier="micro" checksum="(null)">
   </resource>
 
   <resource identifier="micro.pcf" checksum="(null)">
   </resource>
 
-  <resource identifier="Mincho" checksum="(null)">
+  <resource identifier="Mincho (OTB)" checksum="(null)">
   </resource>
 
   <resource identifier="Misc Fixed" checksum="(null)">
@@ -3244,10 +3805,10 @@
   <resource identifier="MUTT ClearlyU Wide" checksum="(null)">
   </resource>
 
-  <resource identifier="Newspaper" checksum="(null)">
+  <resource identifier="Newspaper (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="Nil" checksum="(null)">
+  <resource identifier="Nil (OTB)" checksum="(null)">
   </resource>
 
   <resource identifier="Nimbus Mono PS" checksum="(null)">
@@ -3301,10 +3862,10 @@
   <resource identifier="Noto Color Emoji" checksum="(null)">
   </resource>
 
-  <resource identifier="OPEN LOOK cursor" checksum="(null)">
+  <resource identifier="OPEN LOOK cursor (OTB)" checksum="(null)">
   </resource>
 
-  <resource identifier="OPEN LOOK glyph" checksum="(null)">
+  <resource identifier="OPEN LOOK glyph (OTB)" checksum="(null)">
   </resource>
 
   <resource identifier="P052" checksum="(null)">
@@ -3317,6 +3878,18 @@
   </resource>
 
   <resource identifier="P052 Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Padauk" checksum="(null)">
+  </resource>
+
+  <resource identifier="Padauk Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Padauk Book," checksum="(null)">
+  </resource>
+
+  <resource identifier="Padauk Book, Bold" checksum="(null)">
   </resource>
 
   <resource identifier="Sans-serif" checksum="(null)">
@@ -3433,7 +4006,7 @@
   <resource identifier="SFMono Nerd Font Mono Semi-Bold Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Song ti" checksum="(null)">
+  <resource identifier="Song ti (OTB)" checksum="(null)">
   </resource>
 
   <resource identifier="Sony Fixed" checksum="(null)">
@@ -3578,6 +4151,9 @@
   </resource>
 
   <resource identifier="Symbols Nerd Font" checksum="(null)">
+  </resource>
+
+  <resource identifier="Symbols Nerd Font Mono" checksum="(null)">
   </resource>
 
   <resource identifier="Tahoma" checksum="(null)">
