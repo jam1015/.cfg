@@ -7,3 +7,9 @@ firenvim
 /.repro/data/nvim/lazy/*
 /nvim_matchup_reprex/.repro/plugins/*
 /.repro/plugins/*
+.vim/undodir/*
+.cfg
+.config/google-chrome/*
+.config/google-chrome
+.config/libreoffice/*
+.config/libreoffice
