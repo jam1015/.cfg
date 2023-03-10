@@ -9,7 +9,6 @@ firenvim
 /.repro/plugins/*
 .vim/undodir/*
 .cfg
-
 .config/google-chrome/*
 .config/google-chrome
 .config/google-chrome/

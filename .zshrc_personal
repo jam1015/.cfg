@@ -74,7 +74,7 @@ else
 PS1='%B%F{magenta}%3~ ${vim_mode}%f%b '
 fi
 
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dots='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 setopt noauto_pushd
 
 echo ".zshrc sourced"
