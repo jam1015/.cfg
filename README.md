@@ -1,4 +1,7 @@
-# Jordan's Dot Files
+# ARCHIVED Jordan's Dot Files
+
+see `dotfiles` repo for my current dotfiles
+
 
 - Neovim Config
 - Chemacs2 with Spacemacs and Doom
