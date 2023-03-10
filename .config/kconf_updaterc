@@ -1,16 +1,21 @@
 updateInfoAdded=true
 
+[ark.upd]
+ctime=1676393601
+done=add-hamburgermenu-to-toolbar
+mtime=1675190458
+
 [dolphin_detailsmodesettings.upd]
-ctime=1667758600
+ctime=1676393612
 done=rename-leading-padding
-mtime=1667294949
+mtime=1675181487
 
 [filepicker.upd]
-ctime=1669747578
+ctime=1674530343
 done=filepicker-remove-old-previews-entry
-mtime=1667745240
+mtime=1673506393
 
 [konsole_globalaccel.upd]
-ctime=1667758609
+ctime=1676393649
 done=konsole_globalaccel
-mtime=1667306785
+mtime=1675191077

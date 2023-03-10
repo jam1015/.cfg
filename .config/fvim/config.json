@@ -1,0 +1,21 @@
+{
+  "workspace": [
+    {
+      "path": "/home/jordan",
+      "mainwin": {
+        "x": 300,
+        "y": 227,
+        "w": 796,
+        "h": 853,
+        "state": "Normal",
+        "BackgroundComposition": "none",
+        "CustomTitleBar": false
+      }
+    }
+  ],
+  "Logging": null,
+  "Default": {
+    "w": 800,
+    "h": 600
+  }
+}

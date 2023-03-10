@@ -2,8 +2,8 @@
 DirHistory[$e]=$HOME/Downloads/
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME,file:$HOME
-Recent URLs[$e]=file:$HOME/Downloads/
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/Downloads/,file:$HOME/
 detailViewIconSize=16
 
 [MainWindow]
@@ -20,7 +20,7 @@ LVDS-1 VGA-1 XPosition 1920x1080=962
 LVDS-1 VGA-1 YPosition 1600x900=156
 LVDS-1 VGA-1 YPosition 1600x900 LVDS-1=160
 LVDS-1 VGA-1 YPosition 1920x1080=18
-State=AAAA/wAAAAD9AAAAAAAAAxwAAAMnAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAxwAAAM3AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 StatusBar=Disabled
 ToolBarsMovable=Disabled
 splitterSizes=528,264

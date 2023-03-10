@@ -16,7 +16,7 @@ disable_ligatures always
 #977
 clipboard_control write-primary write-clipboard no-append
 #: Fonts {{{
-
+							
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
@@ -38,7 +38,7 @@ clipboard_control write-primary write-clipboard no-append
 #bold_font        SF Mono Bold
 #italic_font      SF Mono Regular Italic
 #bold_italic_font SF Mono Bold Italic
-##font_size 11
+#font_size 10
 #font_size 10
 
 #font_family      Fira Code Regular
@@ -70,7 +70,7 @@ clipboard_control write-primary write-clipboard no-append
 #bold_font         CMU Typewriter Text Bold
 #italic_font      CMU Typewriter Text Italic
 #bold_italic_font CMU Typewriter Text BoldItalic
-#font_size 6
+#font_size 11
 
 #font_family      Fantasque Sans Mono Regular
 #bold_font        Fantasque Sans Mono Bold
@@ -78,17 +78,17 @@ clipboard_control write-primary write-clipboard no-append
 #bold_italic_font Fantasque Sans Mono Bold Italic
 #font_size 13
 
-#font_family      InputMono
-#bold_font        InputMono
-#italic_font      InputMono
-#bold_italic_font InputMono
-#font_size 5.5
+font_family      InputMono
+bold_font        InputMono Bold
+italic_font      InputMono Italic
+bold_italic_font InputMono Bold Italid
+font_size 9
 
 #font_family      Iosevka Extended
 #bold_font        Iosevka Bold Extended
 #italic_font      Iosevka Extended Italic
 #bold_italic_font Iosevka Bold Extended Italic
-#font_size 5.5
+#font_size 9
 
 #font_family      Cascadia Mono Light
 #bold_font        Cascadia Mono Bold
@@ -126,7 +126,7 @@ clipboard_control write-primary write-clipboard no-append
 #bold_font        IBM Plex Mono Bold
 #italic_font      IBM Plex Mono Italic
 #bold_italic_font IBM Plex Mono Bold Italic
-#font_size 10
+#font_size 9
 ##
 #font_features IBM Plex Mono -liga
 #font_features IBM Plex Mono Bold -liga
@@ -134,18 +134,24 @@ clipboard_control write-primary write-clipboard no-append
 #font_features IBM Plex Mono Bold Italic -liga
 
 
+#font_family      Fantasque Sans Mono
+#bold_font        Fantasque Sans Mono
+#italic_font      Fantasque Sans Mono
+#bold_italic_font Fantasque Sans Mono
+#font_size 10
 
-font_family      Courier Prime
-bold_font        Courier Prime
-italic_font      Courier Prime
-bold_italic_font Courier Prime
-
+#font_family      Courier Prime
+#bold_font        Courier Prime
+#italic_font      Courier Prime
+#bold_italic_font Courier Prime
+#font_size 10
+#
 #font_features CourierPrimeNerdFont-Regular -liga
-
+#
 #font_features CourierPrimeNerdFont-Bold -liga
-
+#
 #font_features CourierPrimeNerdFont-Italic -liga
-
+#
 #font_features CourierPrimeNerdFont-BoldItalic -liga
 
 #font_family     Courier New
@@ -187,8 +193,8 @@ bold_italic_font Courier Prime
 #: than 100% to reduce sizes (but this might cause rendering
 #: artifacts).
 
-# symbol_map U+E0A0-U+E0A3,U+E0C0-U+E0C7 PowerlineSymbols
-#symbol_map U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0C8,U+E0CA,U+E0CC-U+E0D2,U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E62F,U+E700-U+E7C5,U+F000-U+F2E0,U+F300-U+F31C,U+F400-U+F4A9,U+F500-U+F8FF Symbols Nerd Font
+ symbol_map U+E0A0-U+E0A3,U+E0C0-U+E0C7 PowerlineSymbols
+symbol_map U+23FB-U+23FE,U+2665,U+26A1,U+2B58,U+E000-U+E00A,U+E0A0-U+E0A3,U+E0B0-U+E0C8,U+E0CA,U+E0CC-U+E0D2,U+E0D4,U+E200-U+E2A9,U+E300-U+E3E3,U+E5FA-U+E62F,U+E700-U+E7C5,U+F000-U+F2E0,U+F300-U+F31C,U+F400-U+F4A9,U+F500-U+F8FF Symbols Nerd Font
 #: Map the specified unicode codepoints to a particular font. Useful
 #: if you need special rendering for some symbols, such as for
 #: Powerline. Avoids the need for patched fonts. Each unicode code
@@ -385,7 +391,7 @@ bold_italic_font Courier Prime
 #: much effort.
 
 # url_color #0087bd
-# url_style curly
+# url_style curly her
 
 #: The color and style for highlighting URLs on mouse-over. url_style
 #: can be one of: none, single, double, curly
@@ -569,9 +575,9 @@ bold_italic_font Courier Prime
 
 #: }}}
 
-#: Terminal bell {{{
+ Terminal bell {{{
 
-# enable_audio_bell yes
+ enable_audio_bell no
 
 #: Enable/disable the audio bell. Useful in environments that require
 #: silence.
@@ -596,7 +602,7 @@ bold_italic_font Courier Prime
 
 #: Program to run when a bell occurs.
 
-#: }}}
+ }}}
 
 #: Window layout {{{
 
@@ -1575,6 +1581,6 @@ bold_italic_font Courier Prime
 
 
 # BEGIN_KITTY_THEME
-# Wryan
+# Default
 include current-theme.conf
 # END_KITTY_THEME

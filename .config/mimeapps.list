@@ -2,6 +2,7 @@
 image/jpeg=pinta.desktop;
 image/png=pinta.desktop;
 application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;sioyek.desktop;
+text/plain=nvim-qt.desktop;
 
 [Default Applications]
 text/html=firefoxdeveloperedition.desktop
