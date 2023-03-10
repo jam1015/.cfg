@@ -1,6 +1,8 @@
-linters: with_defaults(
-	trailing_whitespace_linter = NULL ,
-	#trailing_blank_lines_linter = NULL ,
-	#no_tb_linter = NULL,
-	line_length_linter = NULL
-	)
+linters: linters_with_defaults(
+    defaults = default_linters,
+    line_length_linter(120), 
+    commented_code_linter = NULL,
+	object_name_linter = NULL,
+	assignment_linter = NULL,
+	trailing_blank_lines_linter = NULL
+  )

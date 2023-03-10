@@ -72,6 +72,7 @@ zstyle ':omz:update' mode auto      # update automatically without asking
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -81,6 +82,7 @@ if [ -f ~/.zshrc_personal ]; then
 else
     print "404: ~/.zshrc_personal not found."
 fi
+
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
