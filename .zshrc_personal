@@ -7,6 +7,7 @@ export PATH="$PATH:/home/jordan/bin"
 # ``````````Vim configuration things`````
 export vimrc="$HOME/.config/nvim/init.lua"
 alias vi='nvim'
+alias ivi='nvim --cmd "let g:unception_disable=1"'
 alias python='ptpython --vi --dark-bg'
 alias pdflatex="pdflatex -synctex=1"
 alias cb=clipboard
@@ -72,6 +73,9 @@ PS1='%B%F{green}su:%3~ ${vim_mode}%f%b '
 else
 PS1='%B%F{magenta}%3~ ${vim_mode}%f%b '
 fi
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+setopt noauto_pushd
 
 echo ".zshrc sourced"
 
