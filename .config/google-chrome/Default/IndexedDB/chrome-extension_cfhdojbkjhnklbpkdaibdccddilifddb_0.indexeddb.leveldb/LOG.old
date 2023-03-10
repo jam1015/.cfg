@@ -1,3 +1,3 @@
-2022/12/20-10:45:11.700 2569f7 Reusing MANIFEST /home/jordan/.config/google-chrome/Default/IndexedDB/chrome-extension_cfhdojbkjhnklbpkdaibdccddilifddb_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/20-10:45:11.700 2569f7 Recovering log #3
-2022/12/20-10:45:11.983 2569f7 Reusing old log /home/jordan/.config/google-chrome/Default/IndexedDB/chrome-extension_cfhdojbkjhnklbpkdaibdccddilifddb_0.indexeddb.leveldb/000003.log 
+2023/01/31-19:04:32.071 be24f Reusing MANIFEST /home/jordan/.config/google-chrome/Default/IndexedDB/chrome-extension_cfhdojbkjhnklbpkdaibdccddilifddb_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/31-19:04:32.072 be24f Recovering log #3
+2023/01/31-19:04:32.826 be24f Reusing old log /home/jordan/.config/google-chrome/Default/IndexedDB/chrome-extension_cfhdojbkjhnklbpkdaibdccddilifddb_0.indexeddb.leveldb/000003.log 
