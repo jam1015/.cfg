@@ -1,6 +1,3 @@
-if exists('#vimStartup')
-	augroup! vimStartup
-endif
 
 augroup vimStartup
 	autocmd!
@@ -39,3 +36,17 @@ augroup vim_help
 	autocmd FileType help hi link HelpBar Normal
 	autocmd FileType help hi link HelpStar Normal
 augroup END
+
+function! EchoWarning(msg)
+  echohl WarningMsg
+  echo "Warning"
+  echohl None
+  echon ': ' a:msg
+endfunction
+
+
+
+function! s:set_concurrent()
+	let v:swapchoice=e
+	echo "concurrent editing"
+endfunction

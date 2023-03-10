@@ -1,7 +1,7 @@
 
 nnoremap <Space> <Nop>
-let mapleader="\\"
-let maplocalleader=" "
+let maplocalleader="\\"
+let mapleader=" "
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
@@ -9,8 +9,7 @@ let maplocalleader=" "
 inoremap <C-U> <C-G>u<C-U>
 
 "lets you use escape in terminal mode
-tnoremap <Esc> <C-\><C-n>
-
+tnoremap <localleader><Esc> <C-\><C-N>
 
 " Convenient command to see the difference between the current buffer and the
 " file it was loaded from, thus the changes you made.
@@ -47,4 +46,16 @@ nmap <silent> <leader>** yiw<Esc>: let @/ = @"" <CR> :set hls <CR>
 "remap omnicomplete
 inoremap <C-j> <C-x><C-o>
 
+"for better pasting
 inoremap <C-r> <C-r><C-p>
+
+
+command -nargs=* -complete=help Ter ter ++curwin ++close <args>
+cnoreabbrev <expr> ter getcmdtype() == ":" && getcmdline() == "ter" ? "Ter" : "ter"
+
+if !empty($TMUX)
+	tnoremap <silent> <C-w> <C-\\><C-n><C-w>
+else
+	nmap <silent> <C-a> <C-w>
+	tmap <C-a> <C-\\><C-o>
+endif

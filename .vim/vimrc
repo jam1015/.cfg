@@ -1,196 +1,62 @@
-" basic vimrc taken from https://dash9.dev/posts/nvim-1/
-source ~/.vim/premade.vim
-if has('nvim')
+runtime config/pluginkeymaps.vim
+runtime config/mysettings.vim
+runtime config/mappings.vim 
+runtime config/autocmds.vim 
+runtime config/directionalhelp.vim
+
+packadd gutentagsconfig
+if !empty($TMUX)
+	tnoremap <silent> <C-w> <C-\\><C-n><C-w>
 else
-source ~/.vim/my_config_files/other_base_vim.vim
-endif "for having nvim
-"---- personal virc----------------------
-" mapping keys
-
-" setting other settings
-
-"---custom keybindings go here--------
-
-syntax on
-set incsearch
-colorscheme habamax
-nnoremap <Space> <Nop>
-let mapleader="\\"
-let maplocalleader=" "
-
-"add type these after a search to instantly move text
-"move to text
-"cnoremap $t <CR>:t''<CR>  
-"move text to 
-"cnoremap $m <CR>:m''<CR>
-"delete
-"cnoremap $d <CR>:d<CR>``
-
-" makes count up and down motions actual lines if a number is given
-"nnoremap <expr> k (v:count == 0 ? 'gk' : 'k')
-"nnoremap <expr> j (v:count == 0 ? 'gj' : 'j')
-
-"force visual motion     
-nnoremap dj dvj
-nnoremap dk dvk
-nnoremap 0 ^
-nnoremap ^ 0
-"nnoremap $ g$
-"nnoremap g$ $
-"nnoremap 0 g0
-"nnoremap g0 0
-"nnoremap ^ g^
-"nnoremap g^ ^
-
-"<leader>l means no highlighting anymore
-nnoremap <silent> <leader>ll :noh<CR>
-
-"make * not move 
-nmap <silent> <leader>** yiw<Esc>: let @/ = @"" <CR> :set hls <CR>
-
-"remap omnicomplete
-inoremap <C-j> <C-x><C-o>
-
-inoremap <C-r> <C-r><C-p>
-
-augroup vim_help
-	autocmd!
-	autocmd FileType help setlocal conceallevel=0 "probably to show the stars and bars
-	autocmd FileType help setlocal number
-	autocmd FileType help hi link HelpBar Normal
-	autocmd FileType help hi link HelpStar Normal
-augroup END
-
-"determine where help appears
-"not sure what <args means here>
-command -nargs=* -complete=help Lelp vertical topleft help <args>
-command -nargs=* -complete=help Relp vertical belowright help <args>
-command -nargs=* -complete=help Telp  topleft help <args>
-command -nargs=* -complete=help Belp  belowright help <args>
-
-"have to ask why cnoremap makes typing in command lines slow
-
-cnoreabbrev <expr> lelp  getcmdtype() == ":" && getcmdline() == "lelp" ? "Lelp" : "lelp"
-cnoreabbrev <expr> relp  getcmdtype() == ":" && getcmdline() == "relp" ? "Relp" : "relp"
-cnoreabbrev <expr> telp  getcmdtype() == ":" && getcmdline() == "telp" ? "Telp" : "telp"
-cnoreabbrev <expr> belp  getcmdtype() == ":" && getcmdline() == "belp" ? "Belp" : "belp"
-
-"use %% to get relative filepath of file to vim base directory
-cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+	nmap <silent> <C-a> <C-w>
+	tmap <C-a> <C-\\><C-o>
+endif
 
 
 
-function! Synctex()
-    let vimura_param = " --synctex-forward " . line('.') . ":" . col('.') . ":" . expand('%:p') . " " . substitute(expand('%:p'),"tex$","pdf", "")
-    if has('nvim')
-        call jobstart("vimura neovim" . vimura_param)
-    else
-        exe "silent !vimura vim" . vimura_param . "&"
-    endif
-    redraw!
-endfunction
-
-map <leader>st :call Synctex()<cr>
-map <leader>lv :VimtexView<cr>
-
-
-
-
-
-
-"---------- setting other settings -----------
+"map <leader>st :call Synctex()<cr>
+"map <leader>lv :VimtexView<cr>
 "
-"to let vim have correct colors in tmux
+""git clone https://github.com/k-takata/minpac.git \
+""    ~/.vim/pack/minpac/opt/minpac
+""curl -fLo ~/.vim/autoload/plugpac.vim --create-dirs \
+""    https://raw.githubusercontent.com/bennyyip/plugpac.vim/master/plugpac.vim
+"
+call plugpac#begin()
+Pack 'NLKNguyen/papercolor-theme'
+Pack 'sickill/vim-monokai'
 
-"other colorscheme commands
-highlight Comment cterm=italic
+Pack 'tpope/vim-unimpaired'
+runtime config/vimunimpairedconfig.vim 
 
-"Actually setting  the colorscheme ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-colorscheme habamax
+Pack 'Yggdroot/indentLine'
+runtime config/indentline_config.vim
 
-set termguicolors
-
-
-set hlsearch
-"toggles relnum vs absnum
-augroup numbertoggle
-autocmd!
-autocmd BufEnter,FocusGained,InsertLeave,CmdLineLeave * set relativenumber
-autocmd BufLeave,FocusLost,InsertEnter  * set norelativenumber
-autocmd CmdLineEnter * set norelativenumber | redraw
-augroup END
-" Don't use Ex mode, use Q for formatting.
-" Revert with ":unmap Q".
-map Q gq
-set number
-set undofile "persistent undo
-if has('nvim')
-set undodir=~/.config/nvim/undodir "the folder where the undo history is kept rather than the local directory for the file
-else
-set undodir=~/.vim/undodir
-endif
-set gdefault
-set nrformats-=octal
-set autoindent
-set scrolloff=3                 " show a few lines around cursor
-set display=truncate
-"set smartindent
-set shiftwidth=4 "how much indentation from >
-set softtabstop=4 "lets us delete by tabs when expandtab is on
-set tabstop=4
-let g:python_recommended_style=0
-set noexpandtab
-set nosmarttab
-set nocindent
-set nosmartindent
-set wildmenu
-set wildmode=full
-"set cursorline
-"set cursorcolumn
-set list
-set listchars=
-set ignorecase
-set smartcase
-set listchars+=tab:··░
-if has('nvim')
-set listchars+=lead:·
-		lua <<EOF
--- highlight yanked text for 200ms using the "Visual" highlight group
-vim.cmd[[
-augroup highlight_yank
-autocmd!
-au TextYankPost * silent! lua vim.highlight.on_yank({higroup="Visual", timeout=200})
-augroup END
-]]
-EOF
-endif
-set listchars+=trail:␣
-set listchars+=extends:»
-set listchars+=precedes:«
-set listchars+=nbsp:⣿
-let g:netrw_liststyle= 3
-
-" some things for zathura+synctex
-let g:vimtex_view_method = 'zathura'
-let g:latex_view_general_viewer = 'zathura'
-let g:vimtex_compiler_progname = 'nvr'
-let g:vimtex_view_enabled=1
-
-"set spell spelllang=en_us
-"hi clear SpellBad
-"hi clear SpellLocal
-"jset listchars+=space:·
-" onoremap K -J
-" always split windows vertically; need to learn vimscript to understand
-"set splitright
-"set splitbelow
-
-
-
-"if exists('#vim_help') "formatting for vim help; show bars/asterisks
-"	augroup! vim_help
-"endif
-
-"turns and helpbars and help stars
-filetype plugin indent on
+Pack 'skywind3000/gutentags_plus'
+Pack 'ludovicchabant/vim-gutentags'
+runtime config/gutentagsconfig.vim
+"
+"" minpac
+""Pack 'k-takata/minpac', {'type': 'opt'}
+""
+""Pack 'junegunn/vim-easy-align'
+""
+""" On-demand loading
+""Pack 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+""Pack 'tpope/vim-fireplace', { 'for': 'clojure' }
+""
+""" Using a non-master branch
+""Pack 'rdnetto/YCM-Generator', { 'branch': 'stable' }
+""
+""" Post-update hook
+""Pack 'Yggdroot/LeaderF', { 'do': {-> system('./install.sh')} }
+""
+""" Sepcify commit ID, branch name or tag name to be checked out.
+""Pack 'tpope/vim-sensible', { 'rev': 'v1.2' }
+Pack 'vlime/vlime', {'rtp': 'vim/'}
+Pack 'kovisoft/paredit'
+"
+call plugpac#end()
+colorscheme monokai
+set wildoptions+=pum
 
